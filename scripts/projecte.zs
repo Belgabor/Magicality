@@ -20,6 +20,15 @@ var aefuel = <ProjectE:item.pe_fuel:2>;
 var pstone = <ProjectE:item.pe_philosophers_stone>;
 var kstar1 = <ProjectE:item.pe_klein_star>;
 
+var coal = <ore:coal>;
+//var coalb = <ore:blockCoal>;
+var fuel1 = <ProjectE:item.pe_fuel>;
+var fuel2 = <ProjectE:item.pe_fuel:1>;
+var fuel3 = <ProjectE:item.pe_fuel:2>;
+var fuelb1 = <ProjectE:Fuel Block>;
+var fuelb2 = <ProjectE:Fuel Block:1>;
+var fuelb3 = <ProjectE:Fuel Block:2>;
+
 var restorer = <ThaumicTinkerer:repairer>;
 
 //var erebusGoop = <erebus:materials:9>;
@@ -101,7 +110,26 @@ recipes.addShaped(<minecraft:diamond>, [[<ore:diamondNugget>, <ore:diamondNugget
 recipes.addShaped(<minecraft:iron_ingot>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
                                [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
 							   [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
-							   
+
+
+// Fuels
+recipes.remove(fuel1);
+recipes.remove(fuel2);
+recipes.removeShapeless(coal);
+recipes.addShapeless(<minecraft:coal>*8, [pstone, fuel1]);
+recipes.addShapeless(fuel1, [pstone, coal, coal, coal, coal, coal, coal, coal, coal]);
+recipes.addShapeless(fuel1*9 , [fuelb1]);
+recipes.addShapeless(fuel1*8, [pstone, fuel2]);
+recipes.addShapeless(fuel2, [pstone, fuel1, fuel1, fuel1, fuel1, fuel1, fuel1, fuel1, fuel1]);
+recipes.addShapeless(fuel2*9 , [fuelb2]);
+recipes.addShapeless(fuel2*4, [pstone, fuel3]);
+furnace.setFuel(fuel1, 6400);
+furnace.setFuel(fuelb1, 64000);
+furnace.setFuel(fuel2, 51200);
+furnace.setFuel(fuelb2, 512000);
+furnace.setFuel(fuel3, 204800);
+furnace.setFuel(fuelb3, 2048000);
+
 
 // Philosopher's Stone
 recipes.remove(pstone);
