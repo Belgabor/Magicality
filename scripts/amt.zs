@@ -12,6 +12,8 @@ var syuzu = <DCsAppleMilk:defeatedcrow.battery>;
 var tyuzu = <DCsAppleMilk:defeatedcrow.battery:1>;
 var bat = <DCsAppleMilk:defeatedcrow.gelBatContainer>;
 var cstick = <DCsAppleMilk:defeatedcrow.stickCarbon>;
+var onyx = <DCsAppleMilk:defeatedcrow.chalcedony:3>;
+
 
 //var bamboo = <ore:stickBamboo>;
 //bamboo.add(<BiomesOPlenty:bamboo>);
@@ -20,6 +22,8 @@ var stick = <ore:stickWood>;
 
 var emoss = <witchery:embermoss>;
 var sbrace = <AWWayofTime:bloodMagicBaseItems:4>;
+
+var hclay = <minecraft:stained_hardened_clay>;
 
 
 // Recharge stuff
@@ -37,6 +41,18 @@ recipes.remove(<DCsAppleMilk:defeatedcrow.VegiBag:5>);
 recipes.remove(<DCsAppleMilk:defeatedcrow.mobDropBox>);
 recipes.addShapeless(<minecraft:rotten_flesh>*9, [<Thaumcraft:blockTaint:2>]);
 
+
+// Remove/Replace TherFound metal recipes
+recipes.removeShaped(<DCsAppleMilk:defeatedcrow.emptyBottle> * 1, [[null, <ore:ingotTin>, null], [<minecraft:glass> * 1, null, <minecraft:glass> * 1], [null, <minecraft:glass> * 1, null]]);
+recipes.removeShaped(<DCsAppleMilk:defeatedcrow.teaMakerNext> * 1, [[<ore:ingotSilver>, <minecraft:water_bucket> * 1, <ore:ingotSilver>], [<minecraft:glass> * 1, <minecraft:water_bucket> * 1, <minecraft:glass> * 1], [<ore:ingotSilver>, <minecraft:blaze_rod> * 1, <ore:ingotSilver>]]);
+recipes.removeShaped(<DCsAppleMilk:defeatedcrow.teaMakerNext> * 1, [[<ore:ingotSilver>, <minecraft:water_bucket> * 1, <ore:ingotSilver>], [<minecraft:glass> * 1, <minecraft:water_bucket> * 1, <minecraft:glass> * 1], [<ore:ingotSilver>, <minecraft:lava_bucket> * 1, <ore:ingotSilver>]]);
+recipes.removeShaped(<DCsAppleMilk:defeatedcrow.chalcedonyLamp:8> * 1, [[null, <ore:ingotSilver>, null], [<ore:ingotSilver>, <DCsAppleMilk:defeatedcrow.chalcedonyLamp> * 1, <ore:ingotSilver>], [null, <ore:ingotSilver>, null]]);
+recipes.removeShaped(<DCsAppleMilk:defeatedcrow.chalcedonyLamp:9> * 1, [[null, <ore:ingotLead>, null], [<ore:ingotLead>, <DCsAppleMilk:defeatedcrow.chalcedonyLamp:1> * 1, <ore:ingotLead>], [null, <ore:ingotLead>, null]]);
+recipes.removeShaped(<DCsAppleMilk:defeatedcrow.emptyCup> * 1, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, null]]);
+
+recipes.addShaped(<DCsAppleMilk:defeatedcrow.chalcedonyLamp:8> * 1, [[null, hclay, null], [hclay, <DCsAppleMilk:defeatedcrow.chalcedonyLamp> * 1, hclay], [null, hclay, null]]);
+recipes.addShaped(<DCsAppleMilk:defeatedcrow.chalcedonyLamp:9> * 1, [[null, hclay, null], [hclay, <DCsAppleMilk:defeatedcrow.chalcedonyLamp:1> * 1, hclay], [null, hclay, null]]);
+recipes.addShaped(<DCsAppleMilk:defeatedcrow.chalcedonyLamp:11> * 1, [[null, onyx, null], [<ore:ingotIron>, <DCsAppleMilk:defeatedcrow.chalcedonyLamp:3> * 1, <ore:ingotIron>], [null, onyx, null]]);
 
 
 // Coffee
