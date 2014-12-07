@@ -104,12 +104,14 @@ recipes.addShaped(kstar1, [[gp, gp, gp],
 recipes.removeShapeless(<minecraft:gold_ingot>);
 recipes.removeShapeless(<minecraft:diamond>);
 recipes.removeShapeless(<minecraft:iron_ingot>);
+recipes.removeShapeless(<minecraft:emerald>);
 recipes.addShaped(<minecraft:diamond>, [[<ore:diamondNugget>, <ore:diamondNugget>, <ore:diamondNugget>],
                                [<ore:diamondNugget>, <ore:diamondNugget>, <ore:diamondNugget>],
 							   [<ore:diamondNugget>, <ore:diamondNugget>, <ore:diamondNugget>]]);
 recipes.addShaped(<minecraft:iron_ingot>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
                                [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
 							   [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
+recipes.addShapeless(<minecraft:emerald>, [pstone, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]);
 
 
 // Fuels
