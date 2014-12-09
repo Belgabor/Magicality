@@ -16,9 +16,13 @@ var dm = <ProjectE:item.pe_matter>;
 var rm = <ProjectE:item.pe_matter:1>;
 var dmb = <ProjectE:Matter Block>;
 var rmb = <ProjectE:Matter Block:1>;
-var aefuel = <ProjectE:item.pe_fuel:2>;
+//var aefuel = <ProjectE:item.pe_fuel:2>;
 var pstone = <ProjectE:item.pe_philosophers_stone>;
 var kstar1 = <ProjectE:item.pe_klein_star>;
+
+var condenser2 = <ProjectE:Condenser MK2>;
+var furnace1 = <ProjectE:DM Furnace>;
+var furnace2 = <ProjectE:RM Furnace>;
 
 var coal = <ore:coal>;
 //var coalb = <ore:blockCoal>;
@@ -83,6 +87,7 @@ var berryice = <DCsAppleMilk:defeatedcrow.iceCreamBlock:9>;
 var chickenstew = <DCsAppleMilk:defeatedcrow.bowlBlock:3>;
 var gp = <DCsAppleMilk:defeatedcrow.GunpowderContainer>;
 var ep = <DCsAppleMilk:defeatedcrow.mobDropBox:3>;
+var spanel = <DCsAppleMilk:defeatedcrow.slotPanel>;
 
 
 // Alchemical Bags (broken)
@@ -171,9 +176,9 @@ game.setLocalization("en_US", "tc.research_page.PE_DARKMATTER", "Your longed for
 mods.thaumcraft.Research.addPage("PE_DARKMATTER", "tc.research_page.PE_DARKMATTER");
 mods.thaumcraft.Research.addPrereq("PE_DARKMATTER", "PE_DARKMATTERBASE", true);
 mods.thaumcraft.Arcane.addShaped("PE_DARKMATTER", dm, "ordo 20, ignis 20",
-						[[aefuel, aefuel, aefuel],
-						 [aefuel, diamondb, aefuel],
-						 [aefuel, aefuel, aefuel]]);
+						[[fuel3, fuel3, fuel3],
+						 [fuel3, diamondb, fuel3],
+						 [fuel3, fuelb3, fuel3]]);
 mods.thaumcraft.Research.addArcanePage("PE_DARKMATTER", dm);
 
 mods.thaumcraft.Research.addResearch("PE_REDMATTER", "BASICS", "potentia 4, permutatio 4, ordo 2, vacuos 4, tempestas 2", 2, -4, 6, rm);
@@ -184,7 +189,7 @@ game.setLocalization("en_US", "tc.research_text.PE_REDMATTER", "[Magicality] And
 game.setLocalization("en_US", "tc.research_page.PE_REDMATTER", "Bending the rules of this world you found an even more efficient way to condense energy into matter.<BR/>Doubtlessly even more powerful items can spring from this discovery.");
 mods.thaumcraft.Research.addPage("PE_REDMATTER", "tc.research_page.PE_REDMATTER");
 mods.thaumcraft.Research.addPrereq("PE_REDMATTER", "PE_REDMATTERBASE", true);
-mods.thaumcraft.Infusion.addRecipe("PE_REDMATTER", dm, [aefuel, aefuel, dm, aefuel, aefuel, aefuel, dm, aefuel], "potentia 32, ordo 32", rm, 8);
+mods.thaumcraft.Infusion.addRecipe("PE_REDMATTER", dm, [fuel3, fuel3, dm, fuel3, fuel3, fuel3, dm, fuel3], "potentia 32, ordo 32", rm, 8);
 mods.thaumcraft.Research.addInfusionPage("PE_REDMATTER", rm);
 
 
@@ -201,6 +206,23 @@ recipes.addShaped(rmb, [[rm, rm, rm],
                         [rm, rm, rm]]);
 recipes.addShapeless(dm * 9, [dmb]);
 recipes.addShapeless(rm * 9, [rmb]);
+
+
+// Offset Storage Block change to some extent
+recipes.remove(condenser2);
+recipes.remove(furnace1);
+recipes.remove(furnace2);
+recipes.addShaped(condenser2, 
+	[[dmb, spanel, dmb],
+	 [spanel, <ProjectE:Condenser>, spanel], 
+	 [dmb, spanel, dmb]]);
+recipes.addShaped(furnace1, 
+	[[dmb, spanel, dmb],
+	 [spanel, <minecraft:furnace:*> * 1, spanel],
+	 [dmb, spanel, dmb]]);
+recipes.addShaped(furnace2, [
+	[null,rm, null], 
+	[rm, furnace1, rm]]);
 
 // Tablet
 recipes.remove(tablet);
