@@ -9,6 +9,7 @@ Unreleased
 * Fixed dm recipe so it's no longer a massive EMC gain
 * Changed some recipes that use dm/rm blocks so they don't suffer that much from making the matter blocks regular storage blocks
 * Fixed some quest text typos / omissions
+* Made it possible to get ender shards in the overworld. No spoilers, but there is a hint in your beginner shard entry =)
 
 
 Alpha 2.0

@@ -1,6 +1,13 @@
 {
   "_name": "SpecialMobs.MirageEnderman",
-  "drops": [],
+    "drops": [
+        {
+          "function": "add",
+          "id": "ThaumicTinkerer:kamiResource",
+          "count": 1,
+          "damage": 7
+        }
+      ],
   "pre_stats": [],
   "stats": []
 }

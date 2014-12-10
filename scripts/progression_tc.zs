@@ -100,3 +100,11 @@ mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardWater);
 mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardEarth);
 mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardOrder);
 mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardEntropy);
+
+//mods.thaumcraft.Research.addResearch("MAG_DIM_SHARDS", "TT_CATEGORY", null, 8, 9, 8, <ThaumicTinkerer:kamiResource:7>);
+//mods.thaumcraft.Research.setRound("MAG_DIM_SHARDS", true);
+//mods.thaumcraft.Research.setAutoUnlock("MAG_DIM_SHARDS", true);
+//game.setLocalization("en_US", "tc.research_name.MAG_DIM_SHARDS", "A strange kind of enderman");
+//game.setLocalization("en_US", "tc.research_text.MAG_DIM_SHARDS", "[Magicality] Ender Shards");
+game.setLocalization("en_US", "tc.research_page.MAG_DIM_SHARDS", "Ender Shards<BR>Maybe the power of the end is stronger here or it is one of their special powers, but you have heard that a special kind of endermen can drop ender shards in the overworld.<BR>The reports are inconclusive, but it seems they look almost like they are made from end stone. On the other hand, maybe they are just an illusion, a mere trick of the light over a hot desert?");
+mods.thaumcraft.Research.addPage("SHARDS1", "tc.research_page.MAG_DIM_SHARDS");
