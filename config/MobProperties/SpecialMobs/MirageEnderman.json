@@ -4,7 +4,7 @@
         {
           "function": "add",
           "id": "ThaumicTinkerer:kamiResource",
-          "count": 1,
+          "count": 0.1,
           "damage": 7
         }
       ],
