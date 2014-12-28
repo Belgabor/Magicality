@@ -19,6 +19,7 @@ var rmb = <ProjectE:Matter Block:1>;
 //var aefuel = <ProjectE:item.pe_fuel:2>;
 var pstone = <ProjectE:item.pe_philosophers_stone>;
 var kstar1 = <ProjectE:item.pe_klein_star>;
+var density = <ProjectE:item.pe_gem_density>;
 
 var condenser2 = <ProjectE:Condenser MK2>;
 var furnace1 = <ProjectE:DM Furnace>;
@@ -54,6 +55,7 @@ var tiara = <Botania:flightTiara>;
 var notch = <minecraft:golden_apple:1>;
 var stone = <ore:stone>;
 var obsidian = <minecraft:obsidian>;
+var diamond = <ore:gemDiamond>;
 var diamondb = <ore:blockDiamond>;
 var clock = <Automagy:blockHourglassMagic>;
 
@@ -146,6 +148,13 @@ recipes.addShaped(pstone, [[<minecraft:redstone> * 1, <minecraft:glowstone_dust>
 recipes.addShaped(pstone, [[<minecraft:glowstone_dust> * 1, <minecraft:redstone> * 1, <minecraft:glowstone_dust> * 1],
                            [<minecraft:redstone> * 1, <ore:ingotIron>, <minecraft:redstone> * 1], 
 						   [<minecraft:glowstone_dust> * 1, <minecraft:redstone> * 1, <minecraft:glowstone_dust> * 1]]);
+
+
+// Gem of Eternal Density
+recipes.remove(density);
+recipes.addShaped(density, [[diamond, obsidian, diamond],
+                           [obsidian, rm, obsidian], 
+						   [diamond, obsidian, diamond]]);
 
 
 
