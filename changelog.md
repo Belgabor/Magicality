@@ -14,6 +14,7 @@ Unreleased
 * Changed emerald shard recipe (Fixes Issue #16)
 * Gem of Eternal Density now requires red matter (Fixes Issue #17)
 * Make red matter quest detection (Fixes Issue #18)
+* Update research locations for TC 4.2.2.x
 
 
 Alpha 2.0

@@ -241,7 +241,7 @@ recipes.addShaped(tablet, [[obsidian, stone, obsidian],
 
 
 // void base
-mods.thaumcraft.Research.addResearch("PE_BASEITEM", "ELDRITCH", "alienis 2, fabrico 2, praecantatio 2", 0, 2, 4, ring);
+mods.thaumcraft.Research.addResearch("PE_BASEITEM", "ELDRITCH", "alienis 2, fabrico 2, praecantatio 2", 2, 4, 4, ring);
 mods.thaumcraft.Research.setRound("PE_BASEITEM", true);
 mods.thaumcraft.Research.setAutoUnlock("PE_BASEITEM", true);
 game.setLocalization("en_US", "tc.research_name.PE_BASEITEM", "Interdisciplinary Magic");
@@ -254,7 +254,7 @@ mods.thaumcraft.Research.addPrereq("PE_BASEITEM", "ELDRITCHMINOR", false);
 // Repair Talisman
 recipes.remove(talisman);
 
-mods.thaumcraft.Research.addResearch("PE_TALISMAN", "ELDRITCH", "alienis 2, fabrico 2, instrumentum 2, machina 2, praecantatio 2, spiritus 2", -2, 2, 8, talisman);
+mods.thaumcraft.Research.addResearch("PE_TALISMAN", "ELDRITCH", "alienis 2, fabrico 2, instrumentum 2, machina 2, praecantatio 2, spiritus 2", 4, 3, 8, talisman);
 mods.thaumcraft.Research.setConcealed("PE_TALISMAN", true);
 game.setLocalization("en_US", "tc.research_name.PE_TALISMAN", "Convenient Repair");
 game.setLocalization("en_US", "tc.research_text.PE_TALISMAN", "[Magicality] Automagic item repair");
@@ -273,7 +273,7 @@ mods.thaumcraft.Research.addPrereq("PE_TALISMAN", "REPAIRER", true);
 // Watch of flowing time
 recipes.remove(timewatch);
 
-mods.thaumcraft.Research.addResearch("PE_WATCH", "ELDRITCH", "alienis 2, instrumentum 2, machina 2, praecantatio 2, potentia 2", -2, 3, 8, timewatch);
+mods.thaumcraft.Research.addResearch("PE_WATCH", "ELDRITCH", "alienis 2, instrumentum 2, machina 2, praecantatio 2, potentia 2", 4, 4, 8, timewatch);
 mods.thaumcraft.Research.setConcealed("PE_WATCH", true);
 game.setLocalization("en_US", "tc.research_name.PE_WATCH", "Faster!");
 game.setLocalization("en_US", "tc.research_text.PE_WATCH", "[Magicality] But who watches the watches?");
@@ -291,7 +291,7 @@ mods.thaumcraft.Research.addPrereq("PE_WATCH", "MAGICHOURGLASS", true);
 // Swiftwolf's rending gale
 recipes.remove(swiftwolf);
 
-mods.thaumcraft.Research.addResearch("PE_SWIFTWOLF", "ELDRITCH", "alienis 2, instrumentum 2, volatus 2, praecantatio 2, iter 2", -2, 4, 8, swiftwolf);
+mods.thaumcraft.Research.addResearch("PE_SWIFTWOLF", "ELDRITCH", "alienis 2, instrumentum 2, volatus 2, praecantatio 2, iter 2", 4, 5, 8, swiftwolf);
 mods.thaumcraft.Research.setConcealed("PE_SWIFTWOLF", true);
 game.setLocalization("en_US", "tc.research_name.PE_SWIFTWOLF", "Fly like a bird!");
 game.setLocalization("en_US", "tc.research_text.PE_SWIFTWOLF", "[Magicality] They're flying away into the sky!");
