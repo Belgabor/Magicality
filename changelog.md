@@ -3,7 +3,7 @@ Magicality Changelog
 
 Unreleased
 ----------
-* More sensible burn time vs. EMC settings. Coal is now 32 EMC, ProjectE fuel recipes were changed so their EMC values are as uncghanged as possible (only alchemical fuel has half it's previous EMC now). Burn times were changed accordingly, all ProjectE fuels therefore burn now significantly longer.
+* More sensible burn time vs. EMC settings. Coal is now 32 EMC, ProjectE fuel recipes were changed so their EMC values are as unchanged as possible (only alchemical fuel has half it's previous EMC now). Burn times were changed accordingly, all ProjectE fuels therefore burn now significantly longer.
 * Removed and (if necessary) replaced all AMT recipes that use tin or silver. This also gets rid of the empty bottle/bottle case exploit (Fixes Issue #5)
 * Fixed diamond to emerald transmutation exploit. Recipe now requires 8 iron ingots
 * Fixed dm recipe so it's no longer a massive EMC gain
@@ -15,7 +15,7 @@ Unreleased
 * Gem of Eternal Density now requires red matter (Fixes Issue #17)
 * Make red matter quest detection (Fixes Issue #18)
 * Update research locations for TC 4.2.2.x
-* Changed the tooltip for the Energy Collector to be less misleading
+* Changed the tooltip for the Energy Collector to be less misleading (Ref Issue #22)
 * Cleaned up quests:
   - Better flow (visual)
   - Backup quests are marked as such
