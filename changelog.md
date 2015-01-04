@@ -15,6 +15,15 @@ Unreleased
 * Gem of Eternal Density now requires red matter (Fixes Issue #17)
 * Make red matter quest detection (Fixes Issue #18)
 * Update research locations for TC 4.2.2.x
+* Changed the tooltip for the Energy Collector to be less misleading
+* Cleaned up quests:
+  - Better flow (visual)
+  - Backup quests are marked as such
+  - Note added to chapter 1
+  - Repeatable quests now all have an interval, immediate can be confusing
+  - Gem armor quests are now repeatable, changed from detect to submit
+* Sugar, sugarcane and paper are now 4 EMC to reduce the impact of a coming mod on early game balance
+* Voiced lore now auto plays
 
 
 Alpha 2.0

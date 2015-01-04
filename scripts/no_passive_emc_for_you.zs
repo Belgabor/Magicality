@@ -24,7 +24,7 @@ recipes.addShaped(ichoriumBlock, [[ichorium, ichorium, ichorium],
 recipes.addShapeless(ichorium*9, [ichoriumBlock]);
 
 mods.botania.ElvenTrade.addRecipe(collMK1, [ichoriumBlock]);
-collMK1.addTooltip("Whispers tell you it is possible to get one of these.");
+collMK1.addTooltip("Rustling leaves tell you it is possible to get one of these.");
 
 recipes.addShaped(collMK2, [[netherBlock, glass, netherBlock],
                             [netherBlock, collMK1, netherBlock],
