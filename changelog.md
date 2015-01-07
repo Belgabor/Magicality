@@ -25,6 +25,11 @@ Unreleased
 * Sugar, sugarcane and paper are now 4 EMC to reduce the impact of a coming mod on early game balance
 * Voiced lore now auto plays
 * Changed covalence dust recipes to fit our progression
+* Fixed greatwood and silverwood planks emc
+* Adjusted some Fairy Tales lore texts (AMT TC integration)
+* Mod update fixes
+* Backpack mod is deprecated, will be changed to a different one in the next update. Make sure to clean out all backpacks before the next update. In preparation, backpacks have now an EMC value so you can "cash" them in.
+* Opis/Mapmaker is removed in favour of Journeymap in THIS update, make sure to note down your markers before updating
 
 
 Alpha 2.0

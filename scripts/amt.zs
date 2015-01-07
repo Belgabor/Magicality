@@ -27,13 +27,7 @@ var hclay = <minecraft:stained_hardened_clay>;
 
 
 // Recharge stuff
-recipes.remove(<DCsAppleMilk:defeatedcrow.redGel>);
-//recipes.remove(<DCsAppleMilk:defeatedcrow.batBox>);
 recipes.remove(bat);
-//recipes.addShaped(<DCsAppleMilk:defeatedcrow.gelBatContainer>, [[cstick, syuzu, cstick],
-//																[syuzu, tyuzu, syuzu],
-//																[cstick, syuzu, cstick]]);
-//<DCsAppleMilk:defeatedcrow.yuzuBatContainer>
 
 
 // Solve recipe conflicts
@@ -60,8 +54,6 @@ recipes.addShapeless(coffee, [grater, bean]);
 
 
 // Chopsticks & spoon & NEI issues
-//recipes.addShapeless(chopsticks, [bamboo, bamboo, cknife.transformDamage()]);
-NEI.addEntry(<DCsAppleMilk:defeatedcrow.chopsticksBox:4>);
 recipes.addShapeless(spoon, [stick, planks, cknife.transformDamage()]);
 recipes.addShapeless(<DCsAppleMilk:defeatedcrow.cocktail2>, [<Botania:manaBottle:*>.transformDamage(), <DCsAppleMilk:defeatedcrow.itemBottle:48>.transformReplace(<DCsAppleMilk:defeatedcrow.itemBottle:32>), <DCsAppleMilk:defeatedcrow.filledCup2:12>]);
 recipes.addShapeless(<DCsAppleMilk:defeatedcrow.cocktail2>, [<Botania:manaBottle:*>.transformDamage(), <DCsAppleMilk:defeatedcrow.itemBottle:32>.transformReplace(<DCsAppleMilk:defeatedcrow.itemBottle:16>), <DCsAppleMilk:defeatedcrow.filledCup2:12>]);
