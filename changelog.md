@@ -24,6 +24,7 @@ Unreleased
   - Gem armor quests are now repeatable, changed from detect to submit
 * Sugar, sugarcane and paper are now 4 EMC to reduce the impact of a coming mod on early game balance
 * Voiced lore now auto plays
+* Changed covalence dust recipes to fit our progression
 
 
 Alpha 2.0

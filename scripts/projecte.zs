@@ -20,6 +20,8 @@ var rmb = <ProjectE:Matter Block:1>;
 var pstone = <ProjectE:item.pe_philosophers_stone>;
 var kstar1 = <ProjectE:item.pe_klein_star>;
 var density = <ProjectE:item.pe_gem_density>;
+var dust2 = <ProjectE:item.pe_covalence_dust:1>;
+var dust3 = <ProjectE:item.pe_covalence_dust:2>;
 
 var condenser2 = <ProjectE:Condenser MK2>;
 var furnace1 = <ProjectE:DM Furnace>;
@@ -138,6 +140,13 @@ furnace.setFuel(fuel2, 51200);
 furnace.setFuel(fuelb2, 512000);
 furnace.setFuel(fuel3, 204800);
 furnace.setFuel(fuelb3, 2048000);
+
+
+// dusts
+recipes.remove(dust2);
+recipes.addShapeless(dust2*40, [<ore:ingotGold>, <minecraft:coal>, <minecraft:coal>]);
+recipes.remove(dust3);
+recipes.addShapeless(dust3*40, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <minecraft:redstone>, <minecraft:redstone>]);
 
 
 // Philosopher's Stone
