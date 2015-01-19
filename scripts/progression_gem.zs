@@ -4,7 +4,7 @@ var gemlegs = <ProjectE:item.pe_gem_armor_2>;
 var gemboots = <ProjectE:item.pe_gem_armor_3>;
 var ostar = <ProjectE:item.pe_klein_star:5>;
 
-var thelmet = <Botania:terrasteelHelm>;
+var thelmet = <Botania:terrasteelHelmReveal>;
 var tchest = <Botania:terrasteelChest>;
 var tlegs = <Botania:terrasteelLegs>;
 var tboots = <Botania:terrasteelBoots>;

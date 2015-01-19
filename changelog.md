@@ -38,6 +38,7 @@ Unreleased
   - BoP bamboo shoots are craftable
   - Quest added to highlight this feature
 * Further improved quest flow
+* Changed recipes to acommodate the fact that red matter and gem helemt have TC revealing built in
 
 
 Alpha 2.0

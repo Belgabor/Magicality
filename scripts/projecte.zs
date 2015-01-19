@@ -343,3 +343,6 @@ mods.thaumcraft.Research.addArcanePage("PE_STONES", life);
 mods.thaumcraft.Research.addPrereq("PE_STONES", "SANESOAP", false);
 
 
+// Armor
+recipes.remove(<ProjectE:item.pe_rm_armor_0>);
+recipes.addShaped(<ProjectE:item.pe_rm_armor_0>, [[rm, rm, rm], [rm, <ProjectE:item.pe_dm_armor_0>, rm], [null, <Thaumcraft:ItemGoggles>, null]]);
