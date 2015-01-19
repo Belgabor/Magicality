@@ -32,6 +32,12 @@ Unreleased
 * Opis/Mapmaker is removed in favour of Journeymap in THIS update, make sure to note down your markers before updating
 * Gravestones config change to disable fog (odd dusk/dawn visuals)
 * More EMC values (Witchery plants/crops/null catalyst, BoP plants/mushrooms)
+* Made Erebus bamboo compatible with BoP bamboo, to prevent EMC snafu, BoP bamboo no longer works as vanilla stick.
+* Progression now mandates the bambucket for Botania
+  - "Gold" bucket recipe removed, bucket EMC restored
+  - BoP bamboo shoots are craftable
+  - Quest added to highlight this feature
+* Further improved quest flow
 
 
 Alpha 2.0

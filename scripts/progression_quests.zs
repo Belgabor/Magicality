@@ -27,8 +27,8 @@ var spanel = <DCsAppleMilk:defeatedcrow.slotPanel>;
 
 
 mods.bloodmagic.Altar.addRecipe(ironNugget, goldIngot, 1, 1000, 5, 5);
-recipes.addShaped(bucket, [[goldIngot, null, goldIngot],
-                               [null, goldIngot, null]]);
+//recipes.addShaped(bucket, [[goldIngot, null, goldIngot],
+//                               [null, goldIngot, null]]);
 
 							   
 // Diamond Gear
