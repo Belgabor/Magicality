@@ -39,6 +39,7 @@ Unreleased
   - Quest added to highlight this feature
 * Further improved quest flow
 * Changed recipes to acommodate the fact that red matter and gem helemt have TC revealing built in
+* Removed iron, gold and diamonds from regular chest loot
 
 
 Alpha 2.0

@@ -1,0 +1,21 @@
+var diamond = <minecraft:diamond>;
+var iron = <minecraft:iron_ingot>;
+var gold = <minecraft:gold_ingot>;
+
+vanilla.loot.removeChestLoot("mineshaftCorridor", iron);
+vanilla.loot.removeChestLoot("mineshaftCorridor", gold);
+vanilla.loot.removeChestLoot("mineshaftCorridor", diamond);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", iron);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", gold);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", diamond);
+vanilla.loot.removeChestLoot("pyramidJungleChest", iron);
+vanilla.loot.removeChestLoot("pyramidJungleChest", gold);
+vanilla.loot.removeChestLoot("pyramidJungleChest", diamond);
+vanilla.loot.removeChestLoot("strongholdCorridor", iron);
+vanilla.loot.removeChestLoot("strongholdCorridor", gold);
+vanilla.loot.removeChestLoot("strongholdCorridor", diamond);
+vanilla.loot.removeChestLoot("strongholdCrossing", iron);
+vanilla.loot.removeChestLoot("strongholdCrossing", gold);
+vanilla.loot.removeChestLoot("villageBlacksmith", iron);
+vanilla.loot.removeChestLoot("villageBlacksmith", gold);
+vanilla.loot.removeChestLoot("villageBlacksmith", diamond);
