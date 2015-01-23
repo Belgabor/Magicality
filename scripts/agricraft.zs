@@ -1,15 +1,6 @@
 
 
 
-// Names
-<AgriCraft:seedChrysalisred>.displayName="Red Chrysalis Seed";
-<AgriCraft:seedChrysalisyellow>.displayName="Yellow Chrysalis Seed";
-<AgriCraft:seedChrysalisblue>.displayName="Blue Chrysalis Seed";
-<AgriCraft:seedChrysaliswhite>.displayName="White Chrysalis Seed";
-<AgriCraft:seedChrysalisblack>.displayName="Black Chrysalis Seed";
-<AgriCraft:seedChrysalisgreen>.displayName="Green Chrysalis Seed";
-
-
 // AMT
 recipes.remove(<DCsAppleMilk:defeatedcrow.saplingTea:2>);
 recipes.addShapeless(<DCsAppleMilk:defeatedcrow.saplingTea>, [<AgriCraft:seedTea>]);

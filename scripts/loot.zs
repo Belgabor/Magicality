@@ -2,6 +2,7 @@ var diamond = <minecraft:diamond>;
 var iron = <minecraft:iron_ingot>;
 var gold = <minecraft:gold_ingot>;
 
+vanilla.loot.removeChestLoot("dungeonChest", iron);
 vanilla.loot.removeChestLoot("mineshaftCorridor", iron);
 vanilla.loot.removeChestLoot("mineshaftCorridor", gold);
 vanilla.loot.removeChestLoot("mineshaftCorridor", diamond);
@@ -19,3 +20,10 @@ vanilla.loot.removeChestLoot("strongholdCrossing", gold);
 vanilla.loot.removeChestLoot("villageBlacksmith", iron);
 vanilla.loot.removeChestLoot("villageBlacksmith", gold);
 vanilla.loot.removeChestLoot("villageBlacksmith", diamond);
+vanilla.loot.removeChestLoot("dungeonChest", <Thaumcraft:ItemLootBag:*>);
+vanilla.loot.removeChestLoot("mineshaftCorridor", <Thaumcraft:ItemLootBag:*>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <Thaumcraft:ItemLootBag:*>);
+vanilla.loot.removeChestLoot("pyramidJungleChest", <Thaumcraft:ItemLootBag:*>);
+vanilla.loot.removeChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag:*>);
+vanilla.loot.removeChestLoot("strongholdCrossing", <Thaumcraft:ItemLootBag:*>);
+vanilla.loot.removeChestLoot("strongholdLibrary", <Thaumcraft:ItemLootBag:*>);

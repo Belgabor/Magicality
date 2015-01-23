@@ -12,12 +12,12 @@
 #this will need textures cropClaysanthemum1, cropClaysanthemum2, Claysanthemum3, Claysanthemum4 in the agricraft/textures/blocks folder and seedClaysanthemum in the agricraft/textures/items folder of your resourcepack.
 #Note the capitalization, always put a capital in the texture name. Also, this crop will not grow unless it has a hardened clay block underneath the block of farmland it's on
 chrysalis,DCsAppleMilk:defeatedcrow.condensedMilk:5,minecraft:glass,3,1,A magical flower with fragile crystalline stem and leaves
-chrysalisred,Automagy:shardSliver:1,minecraft:lava,3,1,A magical flower with fragile crystalline stem and leaves. A tiny everlasting flame seems to burn inside. Grows above lava.
-chrysalisblue,Automagy:shardSliver:2,minecraft:water,3,1,A magical flower with fragile crystalline stem and leaves. It seems to contain a clear fluid. Grows above water.
-chrysalisyellow,Automagy:shardSliver,Botania:reedBlock,3,1,A magical flower with fragile crystalline stem and leaves. It's leaves seem to perpetually move in a slight breeze. Grows above a reed block.
-chrysalisgreen,Automagy:shardSliver:3,minecraft:melon_block,3,1,A magical flower with fragile crystalline stem and leaves. It seems to resonate with nature. Grows above melons.
-chrysaliswhite,Automagy:shardSliver:4,minecraft:sandstone:2,3,1,A magical flower with fragile crystalline stem and leaves. The plant seems to be extremely symmetric to the tiniest leaf. Grows above smooth sandstone.
-chrysalisblack,Automagy:shardSliver:5,DCsAppleMilk:defeatedcrow.GunpowderContainer,3,1,A magical flower with fragile crystalline stem and leaves. You can see no rhyme or reason in the growth of this plant. Grows above gunpowder containers.
+red Chrysalis,Automagy:shardSliver:1,minecraft:lava,3,1,A magical flower with fragile crystalline stem and leaves. A tiny everlasting flame seems to burn inside. Grows above lava.
+blue Chrysalis,Automagy:shardSliver:2,minecraft:water,3,1,A magical flower with fragile crystalline stem and leaves. It seems to contain a clear fluid. Grows above water.
+yellow Chrysalis,Automagy:shardSliver,Botania:reedBlock,3,1,A magical flower with fragile crystalline stem and leaves. It's leaves seem to perpetually move in a slight breeze. Grows above a reed block.
+green Chrysalis,Automagy:shardSliver:3,minecraft:melon_block,3,1,A magical flower with fragile crystalline stem and leaves. It seems to resonate with nature. Grows above melons.
+white Chrysalis,Automagy:shardSliver:4,minecraft:sandstone:2,3,1,A magical flower with fragile crystalline stem and leaves. The plant seems to be extremely symmetric to the tiniest leaf. Grows above smooth sandstone.
+black Chrysalis,Automagy:shardSliver:5,DCsAppleMilk:defeatedcrow.GunpowderContainer,3,1,A magical flower with fragile crystalline stem and leaves. You can see no rhyme or reason in the growth of this plant. Grows above gunpowder containers.
 tea,DCsAppleMilk:defeatedcrow.leafTea,null,1,6,Tea that grows on crops
 cassis,DCsAppleMilk:defeatedcrow.leafTea:2,null,1,6,Cassis that grows on crops
 camellia,DCsAppleMilk:defeatedcrow.leafTea:4,null,1,6,Camelia that grows on crops
