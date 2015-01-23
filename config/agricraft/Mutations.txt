@@ -1,0 +1,32 @@
+#Define mutations here: <mutation>=<parent1>+<parent2>
+#To specify a crop, write <mod>:<cropname>:<meta>, all in lowercase (meta is optional)
+#You can get these values from NEI (example: minecraft:wheat_seeds is the vanilla seeds)
+#Optionally you can also define a mutation like this: <mutation>=<parent1>+<parent2>,<id>,<block>
+#The crops are specified in the same way, the id must be an integer: 1 requires a specified block to be below the farmland and 2 requires a specific block nearby
+#The mutation will not occur if these requirements are not met. For example:
+#magicalcrops:magicalcrops_ModMagicSeedsLead=magicalcrops:magicalcrops_ModMagicSeedsCopper+magicalcrops:magicalcrops_ModMagicSeedsTin,1,ThermalFoundation:Ore:3
+AgriCraft:seedSugarcane=minecraft:wheat_seeds+AgriCraft:seedCarrot
+minecraft:pumpkin_seeds=AgriCraft:seedPotato+AgriCraft:seedCarrot
+minecraft:melon_seeds=AgriCraft:seedCarrot+minecraft:pumpkin_seeds
+AgriCraft:seedPoppy=AgriCraft:seedSugarcane+minecraft:pumpkin_seeds
+AgriCraft:seedDandelion=AgriCraft:seedSugarcane+minecraft:melon_seeds
+AgriCraft:seedOrchid=AgriCraft:seedPoppy+AgriCraft:seedDandelion
+AgriCraft:seedAllium=AgriCraft:seedPoppy+AgriCraft:seedOrchid
+AgriCraft:seedTulipRed=AgriCraft:seedPoppy+AgriCraft:seedAllium
+AgriCraft:seedTulipOrange=AgriCraft:seedDaisy+AgriCraft:seedOrchid
+AgriCraft:seedTulipWhite=AgriCraft:seedDaisy+AgriCraft:seedDandelion
+AgriCraft:seedTulipPink=AgriCraft:seedAllium+AgriCraft:seedDandelion
+AgriCraft:seedDaisy=AgriCraft:seedDandelion+AgriCraft:seedOrchid
+AgriCraft:seedChrysalisred=AgriCraft:seedChrysalis+AgriCraft:seedPoppy,2,minecraft:netherrack
+AgriCraft:seedChrysalisyellow=AgriCraft:seedChrysalis+AgriCraft:seedSugarcane,2,DCsAppleMilk:defeatedcrow.eggBasket
+AgriCraft:seedChrysalisblue=AgriCraft:seedChrysalis+AgriCraft:seedSugarcane,2,minecraft:clay
+AgriCraft:seedChrysaliswhite=AgriCraft:seedChrysalis+AgriCraft:seedDaisy,2,Thaumcraft:blockMagicalLog:1
+AgriCraft:seedChrysalisblack=AgriCraft:seedChrysalis+AgriCraft:seedAllium,2,minecraft:tnt
+AgriCraft:seedChrysalisgreen=AgriCraft:seedChrysalis+AgriCraft:seedTea,2,minecraft:cactus
+witchery:seedsbelladonna=AgriCraft:seedAllium+AgriCraft:seedTulipPink
+witchery:seedsmandrake=witchery:seedsbelladonna+AgriCraft:seedCarrot
+witchery:seedsartichoke=witchery:seedsbelladonna+AgriCraft:seedChrysalisblue
+witchery:seedssnowbell=witchery:seedsartichoke+AgriCraft:seedChrysalisyellow
+AgriCraft:seedTea=AgriCraft:seedCassis+AgriCraft:seedSugarcane
+AgriCraft:seedCassis=AgriCraft:seedTea+minecraft:melon_seeds
+AgriCraft:seedCamellia=AgriCraft:seedCassis+AgriCraft:seedPoppy

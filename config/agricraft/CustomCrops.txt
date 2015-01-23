@@ -1,0 +1,23 @@
+#Define custom crops here: <name>,<fruit:fruitmeta>,<baseblock:baseblockmeta>,<tier>,<rendermethod>,<information>
+# - name:         is the name of the crop you want, for example: claysanthemum
+# - fruit:        the fruit you want the crop to produce, for example: minecraft:clay:0 (metadata is optional, you can get this from NEI)
+# - baseblock:    this is the block that has to be underneath for the plant to grow, for example: (this can also be gotten from NEI, if you don't want to specify, type null)
+# - tier:         from 1 to 5, the higher, the slower the crop will grow
+# - rendermethod: put 1 to render like a flower (in an X-pattern), put 6 to render like wheat (hashtag-pattern)
+# - information:  put a short description (in the same line) of the crop. This will appear in the journal
+#you will need to make a texture pack and add textures for the crops in agricraft/blocks with the name cropName1, cropName2, cropName3, cropName4
+#where name is the name you specified here, there have to be 4 textures, texture 4 is the mature one
+#for the seed texture, put a texture named seedName in the agricraft/items of your resourcepack
+#Example: claysanthemum,minecraft:clay,minecraft:hardened_clay,2,6,a crop that extracts clay from the soil to grow clay buds.
+#this will need textures cropClaysanthemum1, cropClaysanthemum2, Claysanthemum3, Claysanthemum4 in the agricraft/textures/blocks folder and seedClaysanthemum in the agricraft/textures/items folder of your resourcepack.
+#Note the capitalization, always put a capital in the texture name. Also, this crop will not grow unless it has a hardened clay block underneath the block of farmland it's on
+chrysalis,DCsAppleMilk:defeatedcrow.condensedMilk:5,minecraft:glass,3,1,A magical flower with fragile crystalline stem and leaves
+chrysalisred,Automagy:shardSliver:1,minecraft:lava,3,1,A magical flower with fragile crystalline stem and leaves. A tiny everlasting flame seems to burn inside. Grows above lava.
+chrysalisblue,Automagy:shardSliver:2,minecraft:water,3,1,A magical flower with fragile crystalline stem and leaves. It seems to contain a clear fluid. Grows above water.
+chrysalisyellow,Automagy:shardSliver,Botania:reedBlock,3,1,A magical flower with fragile crystalline stem and leaves. It's leaves seem to perpetually move in a slight breeze. Grows above a reed block.
+chrysalisgreen,Automagy:shardSliver:3,minecraft:melon_block,3,1,A magical flower with fragile crystalline stem and leaves. It seems to resonate with nature. Grows above melons.
+chrysaliswhite,Automagy:shardSliver:4,minecraft:sandstone:2,3,1,A magical flower with fragile crystalline stem and leaves. The plant seems to be extremely symmetric to the tiniest leaf. Grows above smooth sandstone.
+chrysalisblack,Automagy:shardSliver:5,DCsAppleMilk:defeatedcrow.GunpowderContainer,3,1,A magical flower with fragile crystalline stem and leaves. You can see no rhyme or reason in the growth of this plant. Grows above gunpowder containers.
+tea,DCsAppleMilk:defeatedcrow.leafTea,null,1,6,Tea that grows on crops
+cassis,DCsAppleMilk:defeatedcrow.leafTea:2,null,1,6,Cassis that grows on crops
+camellia,DCsAppleMilk:defeatedcrow.leafTea:4,null,1,6,Camelia that grows on crops

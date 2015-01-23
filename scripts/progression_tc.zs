@@ -60,51 +60,62 @@ mods.thaumcraft.Research.addResearch("SHARDS1", "BASICS", null, -1, -3, 8, <Thau
 mods.thaumcraft.Research.setRound("SHARDS1", true);
 mods.thaumcraft.Research.setAutoUnlock("SHARDS1", true);
 
-game.setLocalization("en_US", "tc.research_name.SHARDS1", "Beginner Thaumaturge's way to all the shards");
-game.setLocalization("en_US", "tc.research_text.SHARDS1", "[Magicality] Get shards, noob level");
+//game.setLocalization("en_US", "tc.research_name.SHARDS1", "Beginner Thaumaturge's way to all the shards");
+//game.setLocalization("en_US", "tc.research_text.SHARDS1", "[Magicality] Get shards, noob level");
+game.setLocalization("en_US", "tc.research_name.SHARDS1", "Growing shards");
+game.setLocalization("en_US", "tc.research_text.SHARDS1", "[Magicality] Getting shards in a barren world");
 
-mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverAir, glassAir, "aer 5, vitreus 1, perditio 1");
-mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverFire, glassFire, "ignis 5, vitreus 1, perditio 1");
-mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverWater, glassWater, "aqua 5, vitreus 1, perditio 1");
-mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverEarth, glassEarth, "terra 5, vitreus 1, perditio 1");
-mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverOrder, glassOrder, "ordo 5, vitreus 1, perditio 1");
-mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverEntropy, glassEntropy, "vitreus 1, perditio 6");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverAir, glassAir, "aer 5, vitreus 1, perditio 1");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverFire, glassFire, "ignis 5, vitreus 1, perditio 1");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverWater, glassWater, "aqua 5, vitreus 1, perditio 1");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverEarth, glassEarth, "terra 5, vitreus 1, perditio 1");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverOrder, glassOrder, "ordo 5, vitreus 1, perditio 1");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS1", sliverEntropy, glassEntropy, "vitreus 1, perditio 6");
+mods.thaumcraft.Crucible.addRecipe("SHARDS1", <AgriCraft:seedChrysalis>, <minecraft:wheat_seeds>, "vitreus 4, herba 1, messis 1");
 
-game.setLocalization("en_US", "tc.research_page.SHARDS1", "The dead mage you, um, liberated the thaumometer from had some notes about magical shards to fuel your experiments. Unfortunately the earth no longer bears the stone that holds them.<BR>Through some experiments you have found a way to create crude, inferior versions that can be made into the full version with a bit of magic.<BR><BR>You are sure that you will find better ways to make shards in the future.");
+//game.setLocalization("en_US", "tc.research_page.SHARDS1", "The dead mage you, um, liberated the thaumometer from had some notes about magical shards to fuel your experiments. Unfortunately the earth no longer bears the stone that holds them.<BR>Through some experiments you have found a way to create crude, inferior versions that can be made into the full version with a bit of magic.<BR><BR>You are sure that you will find better ways to make shards in the future.");
+game.setLocalization("en_US", "tc.research_page.SHARDS1", "The dead mage you, um, liberated the thaumometer from had some notes about magical shards to fuel your experiments. Unfortunately the earth no longer bears the stone that holds them.<BR>Through some experiments you have found a way to create a plant that will siphon the last remains of magic from the earth and grow it into crystals. The basic form will only make glass, but you are confident you will be able to cross-breed crops that are more useful.");
+game.setLocalization("en_US", "tc.research_page.SHARDS1_2", "Red Chrysalis<BR><IMG>agricraft:textures/blocks/cropChrysalisred4.png:0:0:255:255:0.0625</IMG><BR>The red chrysalis is bred from the chrysalis and poppy. It needs lava below the farm land to grow and a block of netherrack in the vicinity for the mutation to occur.<LINE>Blue Chrysalis<BR><IMG>agricraft:textures/blocks/cropChrysalisblue4.png:0:0:255:255:0.0625</IMG><BR>The blue chrysalis is bred from the chrysalis and sugar cane. It needs water below the farm land to grow and a block of clay in the vicinity for the mutation to occur.");
+game.setLocalization("en_US", "tc.research_page.SHARDS1_3", "Yellow Chrysalis<BR><IMG>agricraft:textures/blocks/cropChrysalisyellow4.png:0:0:255:255:0.0625</IMG><BR>The yellow chrysalis is bred from the chrysalis and sugar cane. It needs a reed block below the farm land to grow and an egg basket in the vicinity for the mutation to occur.<LINE>Green Chrysalis<BR><IMG>agricraft:textures/blocks/cropChrysalisgreen4.png:0:0:255:255:0.0625</IMG><BR>The green chrysalis is bred from the chrysalis and tea. It needs a melon below the farm land to grow and cactus in the vicinity for the mutation to occur.");
+game.setLocalization("en_US", "tc.research_page.SHARDS1_4", "White Chrysalis<BR><IMG>agricraft:textures/blocks/cropChrysaliswhite4.png:0:0:255:255:0.0625</IMG><BR>The white chrysalis is bred from the chrysalis and daisy. It needs smooth sandstone below the farm land to grow and a silverwood log in the vicinity for the mutation to occur.<LINE>Black Chrysalis<BR><IMG>agricraft:textures/blocks/cropChrysalisblack4.png:0:0:255:255:0.0625</IMG><BR>The black chrysalis is bred from the chrysalis and allium. It needs a gunpowder container below the farm land to grow and TNT in the vicinity for the mutation to occur.");
+game.setLocalization("en_US", "tc.research_page.MAG_DIM_SHARDS", "Ender Shards<BR>Maybe the power of the end is stronger here or it is one of their special powers, but you have heard that a special kind of endermen can drop ender shards in the overworld.<BR>The reports are inconclusive, but it seems they look almost like they are made from end stone. On the other hand, maybe they are just an illusion, a mere trick of the light over a hot desert?");
 mods.thaumcraft.Research.addPage("SHARDS1", "tc.research_page.SHARDS1");
-mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverAir);
-mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverFire);
-mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverWater);
-mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverEarth);
-mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverOrder);
-mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverEntropy);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverAir);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverFire);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverWater);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverEarth);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverOrder);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS1", sliverEntropy);
+mods.thaumcraft.Research.addCruciblePage("SHARDS1", <AgriCraft:seedChrysalis>);
+mods.thaumcraft.Research.addPage("SHARDS1", "tc.research_page.SHARDS1_2");
+mods.thaumcraft.Research.addPage("SHARDS1", "tc.research_page.SHARDS1_3");
+mods.thaumcraft.Research.addPage("SHARDS1", "tc.research_page.SHARDS1_4");
+mods.thaumcraft.Research.addPage("SHARDS1", "tc.research_page.MAG_DIM_SHARDS");
 
-mods.thaumcraft.Research.addResearch("SHARDS2", "ALCHEMY", "vitreus 4, permutatio 4, praecantatio 4", -7, -1, 2, <Thaumcraft:ItemShard:1>);
-mods.thaumcraft.Research.setConcealed("SHARDS2", true);
-mods.thaumcraft.Research.addPrereq("SHARDS2", "ALCHEMICALMANUFACTURE", false);
-
-game.setLocalization("en_US", "tc.research_name.SHARDS2", "Advanced Thaumaturge's way to all the shards");
-game.setLocalization("en_US", "tc.research_text.SHARDS2", "[Magicality] Get shards, all the shards! Stabbity, stabbity, all the shards, yeah!");
-
-mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardAir, blank, "aer 5, permutatio 2, praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardFire, blank, "ignis 5, permutatio 2, praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardWater, blank, "aqua 5, permutatio 2, praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardEarth, blank, "terra 5, permutatio 2, praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardOrder, blank, "ordo 5, permutatio 2, praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardEntropy, blank, "perditio 5, permutatio 2, praecantatio 2");
-game.setLocalization("en_US", "tc.research_page.SHARDS2", "After refining your alchemical procedures and dabbling in other magical disciplines you have found an improved way to manufacture shards.<BR>Sure, you need to stab yourself or others to some extent, but when has that ever stopped anyone craving more power?");
-mods.thaumcraft.Research.addPage("SHARDS2", "tc.research_page.SHARDS2");
-mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardAir);
-mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardFire);
-mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardWater);
-mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardEarth);
-mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardOrder);
-mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardEntropy);
+//mods.thaumcraft.Research.addResearch("SHARDS2", "ALCHEMY", "vitreus 4, permutatio 4, praecantatio 4", -7, -1, 2, <Thaumcraft:ItemShard:1>);
+//mods.thaumcraft.Research.setConcealed("SHARDS2", true);
+//mods.thaumcraft.Research.addPrereq("SHARDS2", "ALCHEMICALMANUFACTURE", false);
+//
+//game.setLocalization("en_US", "tc.research_name.SHARDS2", "Advanced Thaumaturge's way to all the shards");
+//game.setLocalization("en_US", "tc.research_text.SHARDS2", "[Magicality] Get shards, all the shards! Stabbity, stabbity, all the shards, yeah!");
+//
+//mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardAir, blank, "aer 5, permutatio 2, praecantatio 2");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardFire, blank, "ignis 5, permutatio 2, praecantatio 2");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardWater, blank, "aqua 5, permutatio 2, praecantatio 2");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardEarth, blank, "terra 5, permutatio 2, praecantatio 2");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardOrder, blank, "ordo 5, permutatio 2, praecantatio 2");
+//mods.thaumcraft.Crucible.addRecipe("SHARDS2", shardEntropy, blank, "perditio 5, permutatio 2, praecantatio 2");
+//game.setLocalization("en_US", "tc.research_page.SHARDS2", "After refining your alchemical procedures and dabbling in other magical disciplines you have found an improved way to manufacture shards.<BR>Sure, you need to stab yourself or others to some extent, but when has that ever stopped anyone craving more power?");
+//mods.thaumcraft.Research.addPage("SHARDS2", "tc.research_page.SHARDS2");
+//mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardAir);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardFire);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardWater);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardEarth);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardOrder);
+//mods.thaumcraft.Research.addCruciblePage("SHARDS2", shardEntropy);
 
 //mods.thaumcraft.Research.addResearch("MAG_DIM_SHARDS", "TT_CATEGORY", null, 8, 9, 8, <ThaumicTinkerer:kamiResource:7>);
 //mods.thaumcraft.Research.setRound("MAG_DIM_SHARDS", true);
 //mods.thaumcraft.Research.setAutoUnlock("MAG_DIM_SHARDS", true);
 //game.setLocalization("en_US", "tc.research_name.MAG_DIM_SHARDS", "A strange kind of enderman");
 //game.setLocalization("en_US", "tc.research_text.MAG_DIM_SHARDS", "[Magicality] Ender Shards");
-game.setLocalization("en_US", "tc.research_page.MAG_DIM_SHARDS", "Ender Shards<BR>Maybe the power of the end is stronger here or it is one of their special powers, but you have heard that a special kind of endermen can drop ender shards in the overworld.<BR>The reports are inconclusive, but it seems they look almost like they are made from end stone. On the other hand, maybe they are just an illusion, a mere trick of the light over a hot desert?");
-mods.thaumcraft.Research.addPage("SHARDS1", "tc.research_page.MAG_DIM_SHARDS");

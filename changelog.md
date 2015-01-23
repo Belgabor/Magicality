@@ -40,6 +40,7 @@ Unreleased
 * Further improved quest flow
 * Changed recipes to acommodate the fact that red matter and gem helemt have TC revealing built in
 * Removed iron, gold and diamonds from regular chest loot
+* Added AgriCraft. Thaumcraft shards are now grown. Witchery plants need to be cross-breeded
 
 
 Alpha 2.0
