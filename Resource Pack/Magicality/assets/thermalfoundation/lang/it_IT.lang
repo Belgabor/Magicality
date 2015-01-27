@@ -1,0 +1,16 @@
+item.thermalfoundation.material.gearCopper.name=Inert Twilight Forest Core
+item.thermalfoundation.material.gearGold.name=Twilight Forest Core
+item.thermalfoundation.material.gearTin.name=Bloody Helmet
+item.thermalfoundation.material.gearSilver.name=Bloody Chestplate
+item.thermalfoundation.material.gearLead.name=Bloody Leggings
+item.thermalfoundation.material.gearNickel.name=Bloody Boots
+item.thermalfoundation.material.gearPlatinum.name=Crusty Helmet
+item.thermalfoundation.material.gearMithril.name=Crusty Chestplate
+item.thermalfoundation.material.gearElectrum.name=Crusty Leggings
+item.thermalfoundation.material.gearInvar.name=Crusty Boots
+item.thermalfoundation.material.gearBronze.name=Alchemical Helmet
+item.thermalfoundation.material.gearSignalum.name=Alchemical Chestplate
+item.thermalfoundation.material.gearLumium.name=Alchemical Leggings
+item.thermalfoundation.material.gearEnderium.name=Alchemical Boots
+
+tile.thermalfoundation.storage.bronze.name=Ichorium Block
