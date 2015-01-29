@@ -42,6 +42,7 @@ Unreleased
 * Removed TC loot bags, iron, gold and diamonds from regular chest loot
 * Added AgriCraft. Thaumcraft shards are now grown. Witchery plants need to be cross-breeded
 * Make sure item renames work in all languages
+* Nodes in Jars added to NEI for testing in Creative
 
 
 Alpha 2.0
