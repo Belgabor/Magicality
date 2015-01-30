@@ -3,6 +3,8 @@ Magicality Changelog
 
 Unreleased
 ----------
+* IMPORTANT: Backpack mod is deprecated, will be changed to a different one in the next update. Make sure to clean out all backpacks before the next update. In preparation, backpacks have now an EMC value so you can "cash" them in.
+* IMPORTANT: The item for the Apple, Milk & Tea Cooking Iron Plate has changed, exchange it for the new one in a crafting grid
 * More sensible burn time vs. EMC settings. Coal is now 32 EMC, ProjectE fuel recipes were changed so their EMC values are as unchanged as possible (only alchemical fuel has half it's previous EMC now). Burn times were changed accordingly, all ProjectE fuels therefore burn now significantly longer.
 * Removed and (if necessary) replaced all AMT recipes that use tin or silver. This also gets rid of the empty bottle/bottle case exploit (Fixes Issue #5)
 * Fixed diamond to emerald transmutation exploit. Recipe now requires 8 iron ingots
@@ -28,7 +30,6 @@ Unreleased
 * Fixed greatwood and silverwood planks emc
 * Adjusted some Fairy Tales lore texts (AMT TC integration)
 * Mod update fixes
-* Backpack mod is deprecated, will be changed to a different one in the next update. Make sure to clean out all backpacks before the next update. In preparation, backpacks have now an EMC value so you can "cash" them in.
 * Opis/Mapmaker is removed in favour of Journeymap in THIS update, make sure to note down your markers before updating
 * Gravestones config change to disable fog (odd dusk/dawn visuals)
 * More EMC values (Witchery plants/crops/null catalyst, BoP plants/mushrooms)
