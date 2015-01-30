@@ -16,3 +16,4 @@ vanilla.seeds.removeSeed(<witchery:seedsbelladonna>);
 vanilla.seeds.removeSeed(<witchery:seedsmandrake>);
 vanilla.seeds.removeSeed(<witchery:seedsartichoke>);
 vanilla.seeds.removeSeed(<witchery:seedssnowbell>);
+vanilla.seeds.removeSeed(<witchery:seedswolfsbane>);

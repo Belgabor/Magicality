@@ -27,6 +27,7 @@ witchery:seedsbelladonna=AgriCraft:seedAllium+AgriCraft:seedTulipPink
 witchery:seedsmandrake=witchery:seedsbelladonna+AgriCraft:seedCarrot
 witchery:seedsartichoke=witchery:seedsbelladonna+AgriCraft:seedBlue Chrysalis
 witchery:seedssnowbell=witchery:seedsartichoke+AgriCraft:seedYellow Chrysalis
+witchery:seedswolfsbane=witchery:seedssnowbell+AgriCraft:seedAllium
 AgriCraft:seedTea=AgriCraft:seedCassis+AgriCraft:seedSugarcane
 AgriCraft:seedCassis=AgriCraft:seedTea+minecraft:melon_seeds
 AgriCraft:seedCamellia=AgriCraft:seedCassis+AgriCraft:seedPoppy

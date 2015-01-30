@@ -30,6 +30,10 @@ var hclay = <minecraft:stained_hardened_clay>;
 recipes.remove(bat);
 
 
+// Cooking Plate
+recipes.addShapeless(<DCsAppleMilk:defeatedcrow.teppanII>, [<DCsAppleMilk:defeatedcrow.teppann>]);
+
+
 // Solve recipe conflicts
 recipes.remove(<DCsAppleMilk:defeatedcrow.VegiBag:5>);
 recipes.remove(<DCsAppleMilk:defeatedcrow.mobDropBox>);
