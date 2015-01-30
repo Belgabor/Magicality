@@ -21,3 +21,4 @@ black Chrysalis,Automagy:shardSliver:5,DCsAppleMilk:defeatedcrow.GunpowderContai
 tea,DCsAppleMilk:defeatedcrow.leafTea,null,1,6,Tea that grows on crops
 cassis,DCsAppleMilk:defeatedcrow.leafTea:2,null,1,6,Cassis that grows on crops
 camellia,DCsAppleMilk:defeatedcrow.leafTea:4,null,1,6,Camelia that grows on crops
+kumquat,Quadrum:kumquat,null,2,6,A bush-like tree that grows tasty little fruit

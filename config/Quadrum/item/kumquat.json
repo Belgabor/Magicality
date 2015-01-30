@@ -1,0 +1,16 @@
+{
+    "name": "kumquat",
+    "texture": "kumquat",
+    "type": "food",
+    "lore": [
+        "A tiny tasty snack, good for your health!"
+    ],
+    "food-amount": 1,
+    "food-saturation": 1,
+    "consume-effect": {
+        "id": 10,
+        "duration": 2, // Duration in SECONDS
+        "amplifier": 0, // Amplifier starts at 0, so 1 is potion level 2
+        "probability": 1
+    }
+}

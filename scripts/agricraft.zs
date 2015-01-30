@@ -16,6 +16,11 @@ recipes.addShapeless(<AgriCraft:seedCamellia>, [<DCsAppleMilk:defeatedcrow.sapli
 mods.botania.RuneAltar.addRecipe(<minecraft:packed_ice>, [<minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <Botania:rune:7>], 5000);
 
 
+// Yuzu
+recipes.remove(<DCsAppleMilk:defeatedcrow.saplingYuzu>);
+mods.bloodmagic.Alchemy.addRecipe(<DCsAppleMilk:defeatedcrow.saplingYuzu>, [<Quadrum:kumquat>, <Quadrum:kumquat>, <Quadrum:kumquat>, <witchery:witchsapling>, <witchery:ingredient:14>], 1, 10000);
+
+
 // Grass drops
 vanilla.seeds.removeSeed(<witchery:seedsbelladonna>);
 vanilla.seeds.removeSeed(<witchery:seedsmandrake>);
