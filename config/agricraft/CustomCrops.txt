@@ -14,7 +14,7 @@
 chrysalis,DCsAppleMilk:defeatedcrow.condensedMilk:5,minecraft:glass,3,1,A magical flower with fragile crystalline stem and leaves
 red Chrysalis,Automagy:shardSliver:1,minecraft:lava,3,1,A magical flower with fragile crystalline stem and leaves. A tiny everlasting flame seems to burn inside. Grows above lava.
 blue Chrysalis,Automagy:shardSliver:2,minecraft:water,3,1,A magical flower with fragile crystalline stem and leaves. It seems to contain a clear fluid. Grows above water.
-yellow Chrysalis,Automagy:shardSliver,Botania:reedBlock,3,1,A magical flower with fragile crystalline stem and leaves. It's leaves seem to perpetually move in a slight breeze. Grows above a reed block.
+yellow Chrysalis,Automagy:shardSliver,chisel:cloud,3,1,A magical flower with fragile crystalline stem and leaves. It's leaves seem to perpetually move in a slight breeze. Grows above a reed block.
 green Chrysalis,Automagy:shardSliver:3,minecraft:melon_block,3,1,A magical flower with fragile crystalline stem and leaves. It seems to resonate with nature. Grows above melons.
 white Chrysalis,Automagy:shardSliver:4,minecraft:sandstone:2,3,1,A magical flower with fragile crystalline stem and leaves. The plant seems to be extremely symmetric to the tiniest leaf. Grows above smooth sandstone.
 black Chrysalis,Automagy:shardSliver:5,DCsAppleMilk:defeatedcrow.GunpowderContainer,3,1,A magical flower with fragile crystalline stem and leaves. You can see no rhyme or reason in the growth of this plant. Grows above gunpowder containers.

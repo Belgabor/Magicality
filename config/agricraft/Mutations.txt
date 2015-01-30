@@ -31,3 +31,4 @@ witchery:seedswolfsbane=witchery:seedssnowbell+AgriCraft:seedAllium
 AgriCraft:seedTea=AgriCraft:seedCassis+AgriCraft:seedSugarcane
 AgriCraft:seedCassis=AgriCraft:seedTea+minecraft:melon_seeds
 AgriCraft:seedCamellia=AgriCraft:seedCassis+AgriCraft:seedPoppy
+DCsAppleMilk:defeatedcrow.seedMint=AgriCraft:seedTea+AgriCraft:seedTea,1,minecraft:packed_ice
