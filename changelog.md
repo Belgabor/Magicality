@@ -1,10 +1,10 @@
 Magicality Changelog
 ====================
 
-Unreleased
-----------
-* IMPORTANT: Backpack mod is deprecated, will be changed to a different one in the next update. Make sure to clean out all backpacks before the next update. In preparation, backpacks have now an EMC value so you can "cash" them in.
-* IMPORTANT: The item for the Apple, Milk & Tea Cooking Iron Plate has changed, exchange it for the new one in a crafting grid
+Alpha 3.0 (Unreleased)
+----------------------
+* **IMPORTANT**: The Backpack mod is deprecated, will be changed to a different one in the next update. Make sure to clean out all backpacks before the next update. In preparation, backpacks have now an EMC value so you can "cash" them in.
+* **IMPORTANT**: The item for the Apple, Milk & Tea Cooking Iron Plate has changed, exchange it for the new one in a crafting grid
 * More sensible burn time vs. EMC settings. Coal is now 32 EMC, ProjectE fuel recipes were changed so their EMC values are as unchanged as possible (only alchemical fuel has half it's previous EMC now). Burn times were changed accordingly, all ProjectE fuels therefore burn now significantly longer.
 * Removed and (if necessary) replaced all AMT recipes that use tin or silver. This also gets rid of the empty bottle/bottle case exploit (Fixes Issue #5)
 * Fixed diamond to emerald transmutation exploit. Recipe now requires 8 iron ingots
@@ -28,22 +28,23 @@ Unreleased
 * Voiced lore now auto plays
 * Changed covalence dust recipes to fit our progression
 * Fixed greatwood and silverwood planks emc
-* Adjusted some Fairy Tales lore texts (AMT TC integration)
+* Adjusted some Fairy Tales lore texts (AMT TC integration, updates in AMT)
 * Mod update fixes
 * Opis/Mapmaker is removed in favour of Journeymap in THIS update, make sure to note down your markers before updating
 * Gravestones config change to disable fog (odd dusk/dawn visuals)
 * More EMC values (Witchery plants/crops/null catalyst, BoP plants/mushrooms)
 * Made Erebus bamboo compatible with BoP bamboo, to prevent EMC snafu, BoP bamboo no longer works as vanilla stick.
-* Progression now mandates the bambucket for Botania
+* Progression now hints at the bambucket for Botania
   - "Gold" bucket recipe removed, bucket EMC restored
   - BoP bamboo shoots are craftable
   - Quest added to highlight this feature
 * Further improved quest flow
-* Changed recipes to acommodate the fact that red matter and gem helemt have TC revealing built in
+* Changed recipes to acommodate the fact that red matter and gem helmet have TC revealing built in
 * Removed TC loot bags, iron, gold and diamonds from regular chest loot
 * Added AgriCraft. Thaumcraft shards are now grown. Witchery plants need to be cross-breeded
 * Make sure item renames work in all languages
 * Nodes in Jars added to NEI for testing in Creative
+* Rebalanced Botania alchemy and conjuration infusions for EMC on mana rather than EMC basis. As a consequence glowstone EMC is reverted to default and a lot of infusion recipes now need more mana, in some cases considerably more. Please note that the Botania NEI integration is not indended for mana requirements as large as some of these, it shows mana requirements on a 1:10 scale. Several of the canged recipes will cap this.
 
 
 Alpha 2.0
