@@ -34,8 +34,8 @@ Alpha 3.0 (Unreleased)
 * Gravestones config change to disable fog (odd dusk/dawn visuals)
 * More EMC values (Witchery plants/crops/null catalyst, BoP plants/mushrooms)
 * Made Erebus bamboo compatible with BoP bamboo, to prevent EMC snafu, BoP bamboo no longer works as vanilla stick.
-* Progression now hints at the bambucket for Botania
-  - "Gold" bucket recipe removed, bucket EMC restored
+* Gold bucket recipe removed, was never necessary since glass bottles can be used.
+  - Bambucket can be used for water transport (part of the AgriCraft quest line)
   - BoP bamboo shoots are craftable
   - Quest added to highlight this feature
 * Further improved quest flow
