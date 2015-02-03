@@ -41,10 +41,12 @@ Alpha 3.0 (Unreleased)
 * Further improved quest flow
 * Changed recipes to acommodate the fact that red matter and gem helmet have TC revealing built in
 * Removed TC loot bags, iron, gold and diamonds from regular chest loot
-* Added AgriCraft. Thaumcraft shards are now grown. Witchery plants need to be cross-breeded
+* Added AgriCraft. Thaumcraft shards are now grown. Witchery plants need to be cross-bred
 * Make sure item renames work in all languages
 * Nodes in Jars added to NEI for testing in Creative
-* Rebalanced Botania alchemy and conjuration infusions for EMC on mana rather than EMC basis. As a consequence glowstone EMC is reverted to default and a lot of infusion recipes now need more mana, in some cases considerably more. Please note that the Botania NEI integration is not indended for mana requirements as large as some of these, it shows mana requirements on a 1:10 scale. Several of the canged recipes will cap this.
+* Rebalanced Botania alchemy and conjuration infusions for EMC on mana rather than EMC basis. As a consequence glowstone EMC is reverted to default and a lot of infusion recipes now need more mana, in some cases considerably more. Please note that the Botania NEI integration is not indended for mana requirements as large as some of these, it shows mana requirements on a 1:10 scale. Several of the changed recipes will cap this.
+* Added a recipe for Blaze spwan eggs in case you have trouble finding a nether fortress
+* Added aspects to a couple of items
 
 
 Alpha 2.0
