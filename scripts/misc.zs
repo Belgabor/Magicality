@@ -49,6 +49,11 @@ qb.addTooltip("aka, the Quest Book");
 <Backpack:workbenchbackpack:*>.addTooltip("Will be removed in the next pack update!");
 
 
+// Helpers
+// Blaze spawn egg
+mods.bloodmagic.Altar.addRecipe(<minecraft:spawn_egg:61>, <minecraft:blaze_powder>, 2, 10000, 40, 10);
+
+
 
 // exploits
 // FM emerald

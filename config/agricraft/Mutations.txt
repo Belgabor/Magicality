@@ -6,6 +6,7 @@
 #The mutation will not occur if these requirements are not met. For example:
 #magicalcrops:magicalcrops_ModMagicSeedsLead=magicalcrops:magicalcrops_ModMagicSeedsCopper+magicalcrops:magicalcrops_ModMagicSeedsTin,1,ThermalFoundation:Ore:3
 AgriCraft:seedSugarcane=minecraft:wheat_seeds+AgriCraft:seedCarrot
+AgriCraft:seedCactus=AgriCraft:seedSugarcane+AgriCraft:seedPoppy
 minecraft:pumpkin_seeds=AgriCraft:seedPotato+AgriCraft:seedCarrot
 minecraft:melon_seeds=AgriCraft:seedCarrot+minecraft:pumpkin_seeds
 AgriCraft:seedPoppy=AgriCraft:seedSugarcane+minecraft:pumpkin_seeds
@@ -17,6 +18,11 @@ AgriCraft:seedTulipOrange=AgriCraft:seedDaisy+AgriCraft:seedOrchid
 AgriCraft:seedTulipWhite=AgriCraft:seedDaisy+AgriCraft:seedDandelion
 AgriCraft:seedTulipPink=AgriCraft:seedAllium+AgriCraft:seedDandelion
 AgriCraft:seedDaisy=AgriCraft:seedDandelion+AgriCraft:seedOrchid
+
+#AgriCraft:seedShroomRed=minecraft:nether_wart+AgriCraft:seedPoppy
+#AgriCraft:seedShroomBrown=minecraft:nether_wart+AgriCraft:seedPotato
+#minecraft:nether_wart=AgriCraft:seedShroomBrown+AgriCraft:seedShroomRed
+
 AgriCraft:seedRed Chrysalis=AgriCraft:seedChrysalis+AgriCraft:seedPoppy,2,minecraft:netherrack
 AgriCraft:seedYellow Chrysalis=AgriCraft:seedChrysalis+AgriCraft:seedSugarcane,2,DCsAppleMilk:defeatedcrow.eggBasket
 AgriCraft:seedBlue Chrysalis=AgriCraft:seedChrysalis+AgriCraft:seedSugarcane,2,minecraft:clay

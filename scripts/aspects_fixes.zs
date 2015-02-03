@@ -8,6 +8,12 @@ mods.thaumcraft.Aspects.set(<TwilightForest:item.tfFeather>, "mortuus 1, volatus
 // DragonAPI fubars
 mods.thaumcraft.Aspects.set(<minecraft:bed>, "desidia 4, fabrico 3, pannus 6");
 
+// BoP
+mods.thaumcraft.Aspects.set(<BiomesOPlenty:mud>, "terra 1, aqua 1");
+mods.thaumcraft.Aspects.set(<BiomesOPlenty:mud:1>, "terra 1, vinculum 1");
+mods.thaumcraft.Aspects.set(<BiomesOPlenty:misc:3>, "corpus 1");
+
+
 // AMT
 mods.thaumcraft.Aspects.set(<DCsAppleMilk:defeatedcrow.bakedApple>, "fames 2, gula 1");
 mods.thaumcraft.Aspects.set(<DCsAppleMilk:defeatedcrow.chocolateFruits:5>, "fames 2, gula 2");
