@@ -2,8 +2,14 @@ import mods.agricraft.CropProduct;
 
 var crops = <AgriCraft:cropsItem>;
 var sprinkler = <AgriCraft:sprinklerItem>;
+var analyzer = <AgriCraft:seedAnalyzer>;
+var trowel = <AgriCraft:trowel>;
+var lw = <ore:livingwood>;
+var lw_slab = <Botania:livingwood0Slab>;
+var lr_slab = <Botania:livingrock0Slab>;
 var lw_twig = <ore:livingwoodTwig>;
 var dw_twig = <ore:dreamwoodTwig>;
+var ms_ingot = <ore:ingotManasteel>;
 
 var sliverAir = <Automagy:shardSliver>;
 var sliverFire = <Automagy:shardSliver:1>;
@@ -26,10 +32,22 @@ recipes.remove(crops);
 recipes.addShapeless(crops * 8, [lw_twig, lw_twig, lw_twig, lw_twig]);
 recipes.addShapeless(crops * 32, [dw_twig, dw_twig, dw_twig, dw_twig]);
 
-
 // Sprinkler
 recipes.remove(sprinkler);
 recipes.addShaped(sprinkler, [[null, <Botania:livingwood:3>, null], [null, <erebus:bambooPole>, null], [sliverWater, <ore:ingotElvenElementium>, sliverWater]]);
+
+// Analyzer
+recipes.remove(analyzer);
+recipes.addShaped(analyzer, [[lw_twig, <ore:paneGlassColorless>, lw_twig], [null, lr_slab, lw_twig], [lw, lw_slab, lw]]);
+
+// Trowel
+recipes.remove(trowel);
+recipes.addShaped(trowel, [[null, null, lw_twig], [ms_ingot, ms_ingot, null]]);
+
+
+// Musrooms
+recipes.addShapeless(<AgriCraft:seedShroomBrown>, [<minecraft:brown_mushroom>]);
+recipes.addShapeless(<AgriCraft:seedShroomRed>, [<minecraft:red_mushroom>]);
 
 
 
@@ -64,6 +82,7 @@ recipes.addShapeless(<DCsAppleMilk:defeatedcrow.saplingTea:2>, [<AgriCraft:seedC
 recipes.addShapeless(<AgriCraft:seedTea>, [<DCsAppleMilk:defeatedcrow.saplingTea>]);
 recipes.addShapeless(<AgriCraft:seedCassis>, [<DCsAppleMilk:defeatedcrow.saplingTea:1>]);
 recipes.addShapeless(<AgriCraft:seedCamellia>, [<DCsAppleMilk:defeatedcrow.saplingTea:2>]);
+// mods.agricraft.CropProduct.add(<AgriCraft:seedKumquat>, <Thaumcraft:ItemManaBean>.withTag({Aspects: [{amount: 1, key: "herba"}]}), 1);
 
 
 // Required materials

@@ -12,7 +12,7 @@ Alpha 3.0 (Unreleased)
 * Changed some recipes that use dm/rm blocks so they don't suffer that much from making the matter blocks regular storage blocks
 * Fixed some quest text typos / omissions
 * Made it possible to get ender shards in the overworld. No spoilers, but there is a hint in your beginner shard entry =)
-* Shards gained an EMC value, removed (were never intended to have one)
+* Removed EMC from items that aren't supposed to have one (Shards, ore clusters, thaumium leggings)
 * Changed emerald shard recipe (Fixes Issue #16)
 * Gem of Eternal Density now requires red matter (Fixes Issue #17)
 * Make red matter quest detection (Fixes Issue #18)
@@ -47,6 +47,7 @@ Alpha 3.0 (Unreleased)
 * Rebalanced Botania alchemy and conjuration infusions for EMC on mana rather than EMC basis. As a consequence glowstone EMC is reverted to default and a lot of infusion recipes now need more mana, in some cases considerably more. Please note that the Botania NEI integration is not indended for mana requirements as large as some of these, it shows mana requirements on a 1:10 scale. Several of the changed recipes will cap this.
 * Added a recipe for Blaze spwan eggs in case you have trouble finding a nether fortress
 * Added aspects to a couple of items
+* Made mana yuzus more expensive
 
 
 Alpha 2.0

@@ -38,6 +38,8 @@ recipes.addShapeless(<DCsAppleMilk:defeatedcrow.teppanII>, [<DCsAppleMilk:defeat
 recipes.remove(<DCsAppleMilk:defeatedcrow.VegiBag:5>);
 recipes.remove(<DCsAppleMilk:defeatedcrow.mobDropBox>);
 recipes.addShapeless(<minecraft:rotten_flesh>*9, [<Thaumcraft:blockTaint:2>]);
+recipes.remove(<minecraft:brown_mushroom_block>);
+recipes.remove(<minecraft:red_mushroom_block>);
 
 
 // Remove/Replace TherFound metal recipes
@@ -67,7 +69,7 @@ recipes.addShapeless(<DCsAppleMilk:defeatedcrow.cocktail2>, [<Botania:manaBottle
 
 // Batteries
 recipes.remove(myuzu);
-mods.botania.ManaInfusion.addInfusion(myuzu, yuzu, 2000);
+mods.botania.ManaInfusion.addInfusion(myuzu, yuzu, 20000);
 mods.bloodmagic.Altar.addRecipe(syuzu, myuzu, 3, 10000, 20, 20);
 
 mods.thaumcraft.Research.addResearch("AMT", "ALCHEMY", "tenebrae 2, victus 2, potentia 2", -7, -3, 8, tyuzu);
