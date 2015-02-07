@@ -1,6 +1,6 @@
 import mods.nei.NEI;
 
-var grater = <DCsAppleMilk:defeatedcrow.grater>;
+var grater = <DCsAppleMilk:defeatedcrow.grater:*>;
 var coffee = <DCsAppleMilk:defeatedcrow.gratedApple:3>;
 var chopsticks = <DCsAppleMilk:defeatedcrow.chopsticks>;
 var spoon = <DCsAppleMilk:defeatedcrow.chopsticks:1>;
