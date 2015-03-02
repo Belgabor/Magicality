@@ -14,6 +14,11 @@ var bat = <DCsAppleMilk:defeatedcrow.gelBatContainer>;
 var cstick = <DCsAppleMilk:defeatedcrow.stickCarbon>;
 var onyx = <DCsAppleMilk:defeatedcrow.chalcedony:3>;
 
+var brick = <minecraft:brick>;
+var clay = <minecraft:clay_ball>;
+var nbrick = <minecraft:netherbrick>;
+var nrack = <minecraft:netherrack>;
+
 
 //var bamboo = <ore:stickBamboo>;
 //bamboo.add(<BiomesOPlenty:bamboo>);
@@ -32,6 +37,16 @@ recipes.remove(bat);
 
 // Cooking Plate
 recipes.addShapeless(<DCsAppleMilk:defeatedcrow.teppanII>, [<DCsAppleMilk:defeatedcrow.teppann>]);
+
+
+// Evilness >:-)
+furnace.remove(brick);
+recipes.remove(brick);
+mods.amt.Plate.addRecipe(brick, clay, 20, true);
+furnace.remove(nbrick);
+recipes.remove(nbrick);
+mods.amt.Plate.addRecipe(nbrick, nrack, 20, true);
+mods.amt.Plate.addRecipe(<minecraft:deadbush>, <minecraft:tallgrass:1>, 100, false);
 
 
 // Solve recipe conflicts
@@ -57,6 +72,7 @@ recipes.addShaped(<DCsAppleMilk:defeatedcrow.chalcedonyLamp:11> * 1, [[null, ony
 
 // Coffee
 recipes.addShapeless(coffee, [grater, bean]);
+mods.amt.Processor.addRecipe(coffee, null, [bean], true);
 
 
 // Chopsticks & spoon & NEI issues
@@ -90,3 +106,24 @@ mods.thaumcraft.Research.addCruciblePage("AMT", tyuzu);
 mods.thaumcraft.Research.addArcanePage("AMT", bat);
 
 mods.thaumcraft.Research.addPrereq("AMT", "ALCHEMICALMANUFACTURE", false);
+
+
+// Mod Interaction
+mods.amt.IceMaker.registerChargeItem(<BiomesOPlenty:hardIce>, 16);
+mods.amt.IceMaker.addRecipe(<BiomesOPlenty:hardIce>, <minecraft:packed_ice>);
+mods.amt.IceMaker.registerChargeItem(<BiomesOPlenty:flowers2:7>, 8); // Icy Iris
+mods.amt.IceMaker.addRecipe(<minecraft:red_flower>, <BiomesOPlenty:flowers2:7>);
+mods.amt.IceMaker.registerChargeItem(<witchery:ingredient:78>, 32); // Icy needle
+mods.amt.IceMaker.registerChargeItem(<TwilightForest:item.iceBomb>, 32);
+mods.amt.IceMaker.registerChargeItem(<AWWayofTime:crystallos>, 64);
+
+mods.amt.Plate.registerHeatSource(<chisel:lavastone:*>);
+
+mods.amt.Processor.addRecipe(<DCsAppleMilk:defeatedcrow.gratedApple:2>*8, <minecraft:bucket>, [<erebus:bucketHoney>, yuzu], true);
+mods.amt.Processor.addRecipe(<DCsAppleMilk:defeatedcrow.gratedApple:2>*8, <erebus:bambucket>, [<erebus:bambucketHoney>, yuzu], true);
+recipes.addShapeless(<erebus:bucketHoney>,[<BiomesOPlenty:bopBucket>.withTag({Fluid:{Amount: 1000, FluidName:"honey"}})]);
+
+mods.amt.Evaporator.addRecipe(<liquid:glowstone> * 1000, <minecraft:glowstone>);
+mods.amt.Evaporator.addRecipe(<liquid:glowstone> * 250, <minecraft:glowstone_dust>);
+
+
