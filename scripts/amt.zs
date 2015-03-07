@@ -33,6 +33,7 @@ var hclay = <minecraft:stained_hardened_clay>;
 
 // Recharge stuff
 recipes.remove(bat);
+<DCsAppleMilk:defeatedcrow.EHandle>.displayName = "Crank";
 
 
 // Cooking Plate
@@ -72,7 +73,7 @@ recipes.addShaped(<DCsAppleMilk:defeatedcrow.chalcedonyLamp:11> * 1, [[null, ony
 
 // Coffee
 recipes.addShapeless(coffee, [grater, bean]);
-mods.amt.Processor.addRecipe(coffee, null, [bean], true);
+mods.amt.Processor.addRecipe(coffee * 2, null, [bean], true);
 
 
 // Chopsticks & spoon & NEI issues
@@ -116,14 +117,57 @@ mods.amt.IceMaker.addRecipe(<minecraft:red_flower>, <BiomesOPlenty:flowers2:7>);
 mods.amt.IceMaker.registerChargeItem(<witchery:ingredient:78>, 32); // Icy needle
 mods.amt.IceMaker.registerChargeItem(<TwilightForest:item.iceBomb>, 32);
 mods.amt.IceMaker.registerChargeItem(<AWWayofTime:crystallos>, 64);
+mods.amt.IceMaker.registerChargeItem(<ThermalFoundation:material:1024>, 50);
+mods.amt.IceMaker.registerChargeItem(<ThermalFoundation:material:1024>, 25);
 
+mods.amt.Pan.registerHeatSource(<BiomesOPlenty:flowers2:2>);
+mods.amt.Pan.registerHeatSource(<witchery:embermoss>);
+mods.amt.Pan.registerHeatSource(<erebus:fireBloom>);
+mods.amt.Pan.registerHeatSource(<erebus:umberFurnace:*>);
+mods.amt.Pan.registerHeatSource(<ProjectE:RM Furnace:*>);
+mods.amt.Pan.registerHeatSource(<ProjectE:RM Furnace Lit:*>);
+mods.amt.Pan.registerHeatSource(<ProjectE:DM Furnace:*>);
+mods.amt.Pan.registerHeatSource(<ProjectE:DM Furnace Lit:*>);
+mods.amt.Pan.registerHeatSource(<enderutilities:enderfurnace>);
 mods.amt.Plate.registerHeatSource(<chisel:lavastone:*>);
+mods.amt.Plate.registerHeatSource(<BiomesOPlenty:flowers2:2>);
+mods.amt.Plate.registerHeatSource(<witchery:embermoss>);
+mods.amt.Plate.registerHeatSource(<ProjectE:RM Furnace:*>);
+mods.amt.Plate.registerHeatSource(<ProjectE:RM Furnace Lit:*>);
+mods.amt.Plate.registerHeatSource(<ProjectE:DM Furnace:*>);
+mods.amt.Plate.registerHeatSource(<ProjectE:DM Furnace Lit:*>);
 
 mods.amt.Processor.addRecipe(<DCsAppleMilk:defeatedcrow.gratedApple:2>*8, <minecraft:bucket>, [<erebus:bucketHoney>, yuzu], true);
 mods.amt.Processor.addRecipe(<DCsAppleMilk:defeatedcrow.gratedApple:2>*8, <erebus:bambucket>, [<erebus:bambucketHoney>, yuzu], true);
-recipes.addShapeless(<erebus:bucketHoney>,[<BiomesOPlenty:bopBucket>.withTag({Fluid:{Amount: 1000, FluidName:"honey"}})]);
+recipes.addShapeless(<erebus:bucketHoney>,[<BiomesOPlenty:bopBucket>.onlyWithTag({Fluid:{Amount: 1000, FluidName:"honey"}})]);
 
 mods.amt.Evaporator.addRecipe(<liquid:glowstone> * 1000, <minecraft:glowstone>);
 mods.amt.Evaporator.addRecipe(<liquid:glowstone> * 250, <minecraft:glowstone_dust>);
+mods.amt.Evaporator.addRecipe(<liquid:ender> * 250, <minecraft:ender_pearl>);
+mods.amt.Evaporator.addRecipe(<liquid:ender> * 2000, <DCsAppleMilk:defeatedcrow.mobDropBox:3>);
+mods.amt.Evaporator.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
+mods.amt.Evaporator.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
+
+
+// Loot
+mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget>);
+mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget:1>);
+mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget:2>);
+mods.amt.Slag.removeLoot(<minecraft:end_stone>);
+mods.amt.Slag.removeLoot(<DCsAppleMilk:defeatedcrow.oreDust:*>);
+mods.amt.Slag.removeLoot(<minecraft:diamond>);
+
+mods.amt.Slag.addLoot(<minecraft:gold_nugget>, 2);
+mods.amt.Slag.addLoot(<Thaumcraft:ItemNuggetChicken>, 2);
+mods.amt.Slag.addLoot(<Thaumcraft:ItemNuggetBeef>, 2);
+mods.amt.Slag.addLoot(<Thaumcraft:ItemNuggetPork>, 2);
+mods.amt.Slag.addLoot(<Thaumcraft:ItemNuggetFish>, 2);
+mods.amt.Slag.addLoot(<minecraft:netherrack>, 2);
+mods.amt.Slag.addLoot(<Translocator:diamondNugget>, 3);
+mods.amt.Slag.addLoot(<minecraft:packed_ice>, 3);
+mods.amt.Slag.addLoot(<Thaumcraft:ItemNugget>, 4); // Iron
+mods.amt.Slag.addLoot(<Thaumcraft:ItemNugget:6>, 4); // Thaumium
+mods.amt.Slag.addLoot(<ForbiddenMagic:FMResource:2>, 4); // Manasteel
+mods.amt.Slag.addLoot(<witchery:ingredient:148>, 5); // Koboldite dust
 
 
