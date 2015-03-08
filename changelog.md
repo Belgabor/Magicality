@@ -45,9 +45,10 @@ Alpha 3.0 (Unreleased)
 * Make sure item renames work in all languages
 * Nodes in Jars added to NEI for testing in Creative
 * Rebalanced Botania alchemy and conjuration infusions for EMC on mana rather than EMC basis. As a consequence glowstone EMC is reverted to default and a lot of infusion recipes now need more mana, in some cases considerably more. Please note that the Botania NEI integration is not indended for mana requirements as large as some of these, it shows mana requirements on a 1:10 scale. Several of the changed recipes will cap this.
-* Added a recipe for Blaze spwan eggs in case you have trouble finding a nether fortress
+* Added a recipe for Blaze spawn eggs in case you have trouble finding a nether fortress
 * Added aspects to a couple of items
 * Made mana yuzus more expensive
+* AMT grater is now available early game
 
 
 Alpha 2.0

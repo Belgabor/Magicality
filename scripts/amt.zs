@@ -13,6 +13,7 @@ var tyuzu = <DCsAppleMilk:defeatedcrow.battery:1>;
 var bat = <DCsAppleMilk:defeatedcrow.gelBatContainer>;
 var cstick = <DCsAppleMilk:defeatedcrow.stickCarbon>;
 var onyx = <DCsAppleMilk:defeatedcrow.chalcedony:3>;
+var slag = <DCsAppleMilk:defeatedcrow.strangeSlag>;
 
 var brick = <minecraft:brick>;
 var clay = <minecraft:clay_ball>;
@@ -29,6 +30,7 @@ var emoss = <witchery:embermoss>;
 var sbrace = <AWWayofTime:bloodMagicBaseItems:4>;
 
 var hclay = <minecraft:stained_hardened_clay>;
+var flint = <minecraft:flint>;
 
 
 // Recharge stuff
@@ -48,6 +50,11 @@ furnace.remove(nbrick);
 recipes.remove(nbrick);
 mods.amt.Plate.addRecipe(nbrick, nrack, 20, true);
 mods.amt.Plate.addRecipe(<minecraft:deadbush>, <minecraft:tallgrass:1>, 100, false);
+
+
+// Grater
+recipes.remove(grater);
+recipes.addShaped(grater, [[null, stick, null], [stick, flint, stick], [stick, flint, stick]]);
 
 
 // Solve recipe conflicts
@@ -149,7 +156,9 @@ mods.amt.Evaporator.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
 mods.amt.Evaporator.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
 
 
-// Loot
+// Slag
+slag.displayName = "Fortune Cookie";
+
 mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget>);
 mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget:1>);
 mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget:2>);
@@ -157,6 +166,7 @@ mods.amt.Slag.removeLoot(<minecraft:end_stone>);
 mods.amt.Slag.removeLoot(<DCsAppleMilk:defeatedcrow.oreDust:*>);
 mods.amt.Slag.removeLoot(<minecraft:diamond>);
 
+mods.amt.Slag.addLoot(<BiomesOPlenty:mudball>, 1);
 mods.amt.Slag.addLoot(<minecraft:gold_nugget>, 2);
 mods.amt.Slag.addLoot(<Thaumcraft:ItemNuggetChicken>, 2);
 mods.amt.Slag.addLoot(<Thaumcraft:ItemNuggetBeef>, 2);
@@ -168,6 +178,20 @@ mods.amt.Slag.addLoot(<minecraft:packed_ice>, 3);
 mods.amt.Slag.addLoot(<Thaumcraft:ItemNugget>, 4); // Iron
 mods.amt.Slag.addLoot(<Thaumcraft:ItemNugget:6>, 4); // Thaumium
 mods.amt.Slag.addLoot(<ForbiddenMagic:FMResource:2>, 4); // Manasteel
+mods.amt.Slag.addLoot(<BiomesOPlenty:gems:3>, 4);
+mods.amt.Slag.addLoot(<BiomesOPlenty:gems:4>, 4);
+mods.amt.Slag.addLoot(<BiomesOPlenty:gems:5>, 4);
+mods.amt.Slag.addLoot(<BiomesOPlenty:gems:7>, 4);
 mods.amt.Slag.addLoot(<witchery:ingredient:148>, 5); // Koboldite dust
+mods.amt.Slag.addLoot(<Thaumcraft:ItemManaBean>, 5);
 
+mods.amt.Processor.removeRecipe(<DCsAppleMilk:defeatedcrow.oreDust:*>);
+mods.amt.Processor.removeRecipe(<minecraft:coal>);
+mods.amt.Processor.removeRecipe(<minecraft:redstone>);
+mods.amt.Processor.removeRecipe(<minecraft:diamond>);
+mods.amt.Processor.removeRecipe(<minecraft:emerald>);
+mods.amt.Processor.removeRecipe(<minecraft:quartz>);
+mods.amt.Processor.removeRecipe(<BiomesOPlenty:gems:*>);
+
+mods.bloodmagic.Altar.addRecipe(slag, <Botania:manaCookie>, 3, 10000, 20, 20);
 
