@@ -11,13 +11,18 @@
 #Example: claysanthemum,minecraft:clay,minecraft:sand,minecraft:hardened_clay,2,6,a crop that extracts clay from the soil to grow clay buds.
 #this will need textures cropClaysanthemum1, cropClaysanthemum2, Claysanthemum3, Claysanthemum4 in the agricraft/textures/blocks folder and seedClaysanthemum in the agricraft/textures/items folder of your resourcepack.
 #Note the capitalization, always put a capital in the texture name. Also, this crop will not grow unless it has a hardened clay block underneath the block of farmland it's on
-chrysalis,null,null,minecraft:glass,3,1,A magical flower with fragile crystalline stem and leaves
+#chrysalis,null,null,minecraft:glass,3,1,A magical flower with fragile crystalline stem and leaves
+chrysalis,null,null,null,3,1,A magical flower with fragile crystalline stem and leaves
 red Chrysalis,null,null,minecraft:lava,3,1,A magical flower with fragile crystalline stem and leaves. A tiny everlasting flame seems to burn inside. Grows above lava.
 blue Chrysalis,null,null,minecraft:water,3,1,A magical flower with fragile crystalline stem and leaves. It seems to contain a clear fluid. Grows above water.
-yellow Chrysalis,null,null,chisel:cloud,3,1,A magical flower with fragile crystalline stem and leaves. It's leaves seem to perpetually move in a slight breeze. Grows above a reed block.
-green Chrysalis,null,null,minecraft:melon_block,3,1,A magical flower with fragile crystalline stem and leaves. It seems to resonate with nature. Grows above melons.
-white Chrysalis,null,null,minecraft:sandstone:2,3,1,A magical flower with fragile crystalline stem and leaves. The plant seems to be extremely symmetric to the tiniest leaf. Grows above smooth sandstone.
-black Chrysalis,null,null,DCsAppleMilk:defeatedcrow.GunpowderContainer,3,1,A magical flower with fragile crystalline stem and leaves. You can see no rhyme or reason in the growth of this plant. Grows above gunpowder containers.
+#yellow Chrysalis,null,null,chisel:cloud,3,1,A magical flower with fragile crystalline stem and leaves. It's leaves seem to perpetually move in a slight breeze. Grows above a reed block.
+yellow Chrysalis,null,null,null,3,1,A magical flower with fragile crystalline stem and leaves. It's leaves seem to perpetually move in a slight breeze. Grows above a reed block.
+#green Chrysalis,null,null,minecraft:melon_block,3,1,A magical flower with fragile crystalline stem and leaves. It seems to resonate with nature. Grows above melons.
+green Chrysalis,null,null,null,3,1,A magical flower with fragile crystalline stem and leaves. It seems to resonate with nature. Grows above melons.
+#white Chrysalis,null,null,minecraft:sandstone:2,3,1,A magical flower with fragile crystalline stem and leaves. The plant seems to be extremely symmetric to the tiniest leaf. Grows above smooth sandstone.
+white Chrysalis,null,null,null,3,1,A magical flower with fragile crystalline stem and leaves. The plant seems to be extremely symmetric to the tiniest leaf. Grows above smooth sandstone.
+#black Chrysalis,null,null,DCsAppleMilk:defeatedcrow.GunpowderContainer,3,1,A magical flower with fragile crystalline stem and leaves. You can see no rhyme or reason in the growth of this plant. Grows above gunpowder containers.
+black Chrysalis,null,null,null,3,1,A magical flower with fragile crystalline stem and leaves. You can see no rhyme or reason in the growth of this plant. Grows above gunpowder containers.
 tea,DCsAppleMilk:defeatedcrow.leafTea,null,null,1,6,Tea that grows on crops
 cassis,DCsAppleMilk:defeatedcrow.leafTea:2,null,null,1,6,Cassis that grows on crops
 camellia,DCsAppleMilk:defeatedcrow.leafTea:4,null,null,1,6,Camelia that grows on crops

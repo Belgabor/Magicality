@@ -1,4 +1,5 @@
-import mods.agricraft.CropProduct;
+//import mods.agricraft.CropProduct;
+//import mods.agricraft.growing.Soil;
 
 var crops = <AgriCraft:cropsItem>;
 var sprinkler = <AgriCraft:sprinklerItem>;
@@ -26,6 +27,8 @@ var shardEntropy = <Thaumcraft:ItemShard:5>;
 var c_glass = 100;
 var c_sliver = 25;
 
+var glass = <ore:blockGlassColorless>;
+
 
 // Crops
 recipes.remove(crops);
@@ -45,7 +48,7 @@ recipes.remove(trowel);
 recipes.addShaped(trowel, [[null, null, lw_twig], [ms_ingot, ms_ingot, null]]);
 
 
-// Musrooms
+// Mushrooms
 recipes.addShapeless(<AgriCraft:seedShroomBrown>, [<minecraft:brown_mushroom>]);
 recipes.addShapeless(<AgriCraft:seedShroomRed>, [<minecraft:red_mushroom>]);
 
@@ -73,6 +76,21 @@ mods.agricraft.CropProduct.add(<AgriCraft:seedBlack Chrysalis>, sliverEntropy, c
 mods.agricraft.CropProduct.add(<AgriCraft:seedBlack Chrysalis>, shardEntropy, 1);
 
 
+// Soil
+mods.agricraft.growing.Soil.set(<minecraft:nether_wart>, <minecraft:soul_sand>);
+mods.agricraft.growing.Soil.set(<AgriCraft:seedChrysalis>, <minecraft:glass>);
+mods.agricraft.growing.Soil.set(<AgriCraft:seedRed Chrysalis>, <chisel:netherrack:7>);
+mods.agricraft.growing.Soil.set(<AgriCraft:seedYellow Chrysalis>, <chisel:cloud>);
+mods.agricraft.growing.BaseBlock.set(<AgriCraft:seedYellow Chrysalis>, <DCsAppleMilk:defeatedcrow.eggBasket>, 2, false);
+mods.agricraft.growing.Soil.set(<AgriCraft:seedGreen Chrysalis>, <minecraft:dirt:2>);
+mods.agricraft.growing.Soil.set(<AgriCraft:seedWhite Chrysalis>, <minecraft:sandstone:2>);
+mods.agricraft.growing.Soil.set(<AgriCraft:seedBlack Chrysalis>, <minecraft:tnt>);
+mods.agricraft.growing.BaseBlock.set(<AgriCraft:seedBlack Chrysalis>, <BiomesOPlenty:plants:13>, 2, false);
+mods.agricraft.growing.Soil.set(<DCsAppleMilk:defeatedcrow.seedMint>, <minecraft:packed_ice>);
+//mods.agricraft.growing.Soil.set(<AgriCraft:seedKumquat>, <DCsAppleMilk:defeatedcrow.melonBomb>);
+//mods.agricraft.growing.BaseBlock.set(<AgriCraft:seedKumquat>, <minecraft:redstone_torch>, 2, false);
+
+
 // AMT
 recipes.remove(<DCsAppleMilk:defeatedcrow.saplingTea:2>);
 recipes.remove(<DCsAppleMilk:defeatedcrow.seedMint>);
@@ -86,7 +104,9 @@ recipes.addShapeless(<AgriCraft:seedCamellia>, [<DCsAppleMilk:defeatedcrow.sapli
 
 
 // Required materials
-mods.botania.RuneAltar.addRecipe(<minecraft:packed_ice>, [<minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <Botania:rune:7>], 5000);
+//mods.botania.RuneAltar.addRecipe(<minecraft:packed_ice>, [<minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <Botania:rune:7>], 5000);
+mods.amt.IceMaker.addRecipe(<minecraft:packed_ice>, <minecraft:ice>);
+mods.amt.Plate.addRecipe(<BiomesOPlenty:plants:13>, <minecraft:nether_wart>, 100, false);
 
 
 // Yuzu
@@ -100,3 +120,8 @@ vanilla.seeds.removeSeed(<witchery:seedsmandrake>);
 vanilla.seeds.removeSeed(<witchery:seedsartichoke>);
 vanilla.seeds.removeSeed(<witchery:seedssnowbell>);
 vanilla.seeds.removeSeed(<witchery:seedswolfsbane>);
+
+
+// Cloud
+recipes.remove(<chisel:cloudinabottle>);
+recipes.addShaped(<chisel:cloudinabottle>, [[glass, null, glass], [glass, <minecraft:feather>, glass], [null, glass, null]]);
