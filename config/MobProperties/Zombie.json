@@ -1,6 +1,6 @@
 {
-  "_comment": "Zombie",
   "_name": "Zombie",
   "drops": [],
+  "pre_stats": [],
   "stats": []
 }

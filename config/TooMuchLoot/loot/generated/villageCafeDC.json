@@ -1,0 +1,112 @@
+{
+  "category": "villageCafeDC",
+  "count_min": 3,
+  "count_max": 7,
+  "loot": [
+    {
+      "item": "DCsAppleMilk:defeatedcrow.emptyCup",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.melonSilky",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.AppleBox",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.appleSandwich",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.bakedApple",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.bottleCamOil",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.clam",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.milkCandy",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.toffyApple",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.leafTea",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.condensedMilk",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.yeast",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.grater",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.princessClam",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "DCsAppleMilk:defeatedcrow.essentialOil",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}
