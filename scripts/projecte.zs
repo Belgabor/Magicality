@@ -3,7 +3,7 @@ var harness = <Thaumcraft:HoverHarness>;
 var girdle = <Thaumcraft:ItemGirdleHover>;
 var soap = <Thaumcraft:ItemSanitySoap>;
 
-var tstone = <ProjectE:Transmutation Stone>;
+var tstone = <ProjectE:transmutation_table>;
 var tablet = <ProjectE:item.pe_transmutation_tablet>;
 var ring = <ProjectE:item.pe_ring_iron_band>;
 var talisman = <ProjectE:item.pe_repair_talisman>;
@@ -14,8 +14,8 @@ var soul = <ProjectE:item.pe_soul_stone>;
 var life = <ProjectE:item.pe_life_stone>;
 var dm = <ProjectE:item.pe_matter>;
 var rm = <ProjectE:item.pe_matter:1>;
-var dmb = <ProjectE:Matter Block>;
-var rmb = <ProjectE:Matter Block:1>;
+var dmb = <ProjectE:matter_block>;
+var rmb = <ProjectE:matter_block:1>;
 //var aefuel = <ProjectE:item.pe_fuel:2>;
 var pstone = <ProjectE:item.pe_philosophers_stone>;
 var kstar1 = <ProjectE:item.pe_klein_star>;
@@ -23,18 +23,18 @@ var density = <ProjectE:item.pe_gem_density>;
 var dust2 = <ProjectE:item.pe_covalence_dust:1>;
 var dust3 = <ProjectE:item.pe_covalence_dust:2>;
 
-var condenser2 = <ProjectE:Condenser MK2>;
-var furnace1 = <ProjectE:DM Furnace>;
-var furnace2 = <ProjectE:RM Furnace>;
+var condenser2 = <ProjectE:condenser_mk2>;
+var furnace1 = <ProjectE:dm_furnace>;
+var furnace2 = <ProjectE:rm_furnace>;
 
 var coal = <ore:coal>;
 //var coalb = <ore:blockCoal>;
 var fuel1 = <ProjectE:item.pe_fuel>;
 var fuel2 = <ProjectE:item.pe_fuel:1>;
 var fuel3 = <ProjectE:item.pe_fuel:2>;
-var fuelb1 = <ProjectE:Fuel Block>;
-var fuelb2 = <ProjectE:Fuel Block:1>;
-var fuelb3 = <ProjectE:Fuel Block:2>;
+var fuelb1 = <ProjectE:fuel_block>;
+var fuelb2 = <ProjectE:fuel_block:1>;
+var fuelb3 = <ProjectE:fuel_block:2>;
 
 var restorer = <ThaumicTinkerer:repairer>;
 
@@ -212,8 +212,8 @@ mods.thaumcraft.Research.addInfusionPage("PE_REDMATTER", rm);
 
 
 // Storage blocks
-recipes.removeShaped(<ProjectE:Matter Block> * 4, [[<ProjectE:item.pe_matter> * 1, <ProjectE:item.pe_matter> * 1], [<ProjectE:item.pe_matter> * 1, <ProjectE:item.pe_matter> * 1]]);
-recipes.removeShaped(<ProjectE:Matter Block:1> * 4, [[<ProjectE:item.pe_matter:1> * 1, <ProjectE:item.pe_matter:1> * 1], [<ProjectE:item.pe_matter:1> * 1, <ProjectE:item.pe_matter:1> * 1]]);
+recipes.removeShaped(dmb * 4, [[<ProjectE:item.pe_matter> * 1, <ProjectE:item.pe_matter> * 1], [<ProjectE:item.pe_matter> * 1, <ProjectE:item.pe_matter> * 1]]);
+recipes.removeShaped(rmb * 4, [[<ProjectE:item.pe_matter:1> * 1, <ProjectE:item.pe_matter:1> * 1], [<ProjectE:item.pe_matter:1> * 1, <ProjectE:item.pe_matter:1> * 1]]);
 recipes.remove(dm);
 recipes.remove(rm);
 recipes.addShaped(dmb, [[dm, dm, dm],
@@ -232,7 +232,7 @@ recipes.remove(furnace1);
 recipes.remove(furnace2);
 recipes.addShaped(condenser2, 
 	[[dmb, spanel, dmb],
-	 [spanel, <ProjectE:Condenser>, spanel], 
+	 [spanel, <ProjectE:condenser_mk1>, spanel], 
 	 [dmb, spanel, dmb]]);
 recipes.addShaped(furnace1, 
 	[[dmb, spanel, dmb],

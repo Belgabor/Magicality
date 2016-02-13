@@ -2,7 +2,7 @@
 //import mods.agricraft.growing.Soil;
 
 var crops = <AgriCraft:cropsItem>;
-var sprinkler = <AgriCraft:sprinklerItem>;
+var sprinkler = <AgriCraft:sprinkler>;
 var analyzer = <AgriCraft:seedAnalyzer>;
 var trowel = <AgriCraft:trowel>;
 var lw = <ore:livingwood>;

@@ -39,9 +39,7 @@ recipes.remove(bat);
 
 
 // Cooking Plate
-recipes.addShapeless(<DCsAppleMilk:defeatedcrow.teppanII>, [<DCsAppleMilk:defeatedcrow.teppann>]);
-
-
+//recipes.addShapeless(<DCsAppleMilk:defeatedcrow.teppanII>, [<DCsAppleMilk:defeatedcrow.teppann>]);
 // Evilness >:-)
 furnace.remove(brick);
 recipes.remove(brick);
@@ -131,18 +129,18 @@ mods.amt.Pan.registerHeatSource(<BiomesOPlenty:flowers2:2>);
 mods.amt.Pan.registerHeatSource(<witchery:embermoss>);
 mods.amt.Pan.registerHeatSource(<erebus:fireBloom>);
 mods.amt.Pan.registerHeatSource(<erebus:umberFurnace:*>);
-mods.amt.Pan.registerHeatSource(<ProjectE:RM Furnace:*>);
-mods.amt.Pan.registerHeatSource(<ProjectE:RM Furnace Lit:*>);
-mods.amt.Pan.registerHeatSource(<ProjectE:DM Furnace:*>);
-mods.amt.Pan.registerHeatSource(<ProjectE:DM Furnace Lit:*>);
+mods.amt.Pan.registerHeatSource(<ProjectE:rm_furnace:*>);
+mods.amt.Pan.registerHeatSource(<ProjectE:rm_furnace_lit:*>);
+mods.amt.Pan.registerHeatSource(<ProjectE:dm_furnace:*>);
+mods.amt.Pan.registerHeatSource(<ProjectE:dm_furnace_lit:*>);
 mods.amt.Pan.registerHeatSource(<enderutilities:enderfurnace>);
 mods.amt.Plate.registerHeatSource(<chisel:lavastone:*>);
 mods.amt.Plate.registerHeatSource(<BiomesOPlenty:flowers2:2>);
 mods.amt.Plate.registerHeatSource(<witchery:embermoss>);
-mods.amt.Plate.registerHeatSource(<ProjectE:RM Furnace:*>);
-mods.amt.Plate.registerHeatSource(<ProjectE:RM Furnace Lit:*>);
-mods.amt.Plate.registerHeatSource(<ProjectE:DM Furnace:*>);
-mods.amt.Plate.registerHeatSource(<ProjectE:DM Furnace Lit:*>);
+mods.amt.Plate.registerHeatSource(<ProjectE:rm_furnace:*>);
+mods.amt.Plate.registerHeatSource(<ProjectE:rm_furnace_lit:*>);
+mods.amt.Plate.registerHeatSource(<ProjectE:dm_furnace:*>);
+mods.amt.Plate.registerHeatSource(<ProjectE:dm_furnace_lit:*>);
 
 mods.amt.Processor.addRecipe(<DCsAppleMilk:defeatedcrow.gratedApple:2>*8, <minecraft:bucket>, [<erebus:bucketHoney>, yuzu], true);
 mods.amt.Processor.addRecipe(<DCsAppleMilk:defeatedcrow.gratedApple:2>*8, <erebus:bambucket>, [<erebus:bambucketHoney>, yuzu], true);
@@ -159,9 +157,9 @@ mods.amt.Evaporator.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block
 // Slag
 slag.displayName = "Fortune Cookie";
 
-mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget>);
-mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget:1>);
-mods.amt.Slag.removeLoot(<Thaumcraft:ItemNugget:2>);
+mods.amt.Slag.removeLoot(<DCsAppleMilk:defeatedcrow.condensedMilk:7>);
+mods.amt.Slag.removeLoot(<DCsAppleMilk:defeatedcrow.condensedMilk:8>);
+mods.amt.Slag.removeLoot(<DCsAppleMilk:defeatedcrow.condensedMilk:9>);
 mods.amt.Slag.removeLoot(<minecraft:end_stone>);
 mods.amt.Slag.removeLoot(<DCsAppleMilk:defeatedcrow.oreDust:*>);
 mods.amt.Slag.removeLoot(<minecraft:diamond>);

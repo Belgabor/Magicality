@@ -1,9 +1,9 @@
-var collMK1 = <ProjectE:Collector MK1>;
-var collMK2 = <ProjectE:Collector MK2>;
-var collMK3 = <ProjectE:Collector MK3>;
-var relMK1 = <ProjectE:Relay MK1>;
-var relMK2 = <ProjectE:Realy MK2>;
-var relMK3 = <ProjectE:Relay MK3>;
+var collMK1 = <ProjectE:collector_mk1>;
+var collMK2 = <ProjectE:collector_mk2>;
+var collMK3 = <ProjectE:collector_mk3>;
+var relMK1 = <ProjectE:relay_mk1>;
+var relMK2 = <ProjectE:relay_mk2>;
+var relMK3 = <ProjectE:relay_mk3>;
 var netherBlock = <ore:blockNetherStar>;
 var ichorium = <ThaumicTinkerer:kamiResource:2>;
 var ichoriumBlock = <ThermalFoundation:Storage:9>;
