@@ -77,7 +77,7 @@ mods.agricraft.CropProduct.add(<AgriCraft:seedBlack Chrysalis>, shardEntropy, 1)
 
 
 // Soil
-mods.agricraft.growing.Soil.set(<minecraft:nether_wart>, <minecraft:soul_sand>);
+//mods.agricraft.growing.Soil.set(<minecraft:nether_wart>, <minecraft:soul_sand>);
 mods.agricraft.growing.Soil.set(<AgriCraft:seedChrysalis>, <minecraft:glass>);
 mods.agricraft.growing.Soil.set(<AgriCraft:seedRed Chrysalis>, <chisel:netherrack:7>);
 mods.agricraft.growing.Soil.set(<AgriCraft:seedYellow Chrysalis>, <chisel:cloud>);
@@ -94,9 +94,9 @@ mods.agricraft.growing.Soil.set(<DCsAppleMilk:defeatedcrow.seedMint>, <minecraft
 // AMT
 recipes.remove(<DCsAppleMilk:defeatedcrow.saplingTea:2>);
 recipes.remove(<DCsAppleMilk:defeatedcrow.seedMint>);
-recipes.addShapeless(<DCsAppleMilk:defeatedcrow.saplingTea>, [<AgriCraft:seedTea>]);
-recipes.addShapeless(<DCsAppleMilk:defeatedcrow.saplingTea:1>, [<AgriCraft:seedCassis>]);
-recipes.addShapeless(<DCsAppleMilk:defeatedcrow.saplingTea:2>, [<AgriCraft:seedCamellia>]);
+//recipes.addShapeless(<DCsAppleMilk:defeatedcrow.saplingTea>, [<AgriCraft:seedTea>]);
+//recipes.addShapeless(<DCsAppleMilk:defeatedcrow.saplingTea:1>, [<AgriCraft:seedCassis>]);
+//recipes.addShapeless(<DCsAppleMilk:defeatedcrow.saplingTea:2>, [<AgriCraft:seedCamellia>]);
 recipes.addShapeless(<AgriCraft:seedTea>, [<DCsAppleMilk:defeatedcrow.saplingTea>]);
 recipes.addShapeless(<AgriCraft:seedCassis>, [<DCsAppleMilk:defeatedcrow.saplingTea:1>]);
 recipes.addShapeless(<AgriCraft:seedCamellia>, [<DCsAppleMilk:defeatedcrow.saplingTea:2>]);
@@ -121,6 +121,10 @@ vanilla.seeds.removeSeed(<witchery:seedsartichoke>);
 vanilla.seeds.removeSeed(<witchery:seedssnowbell>);
 vanilla.seeds.removeSeed(<witchery:seedswolfsbane>);
 
+// Light levels
+mods.agricraft.growing.Brightness.set(<minecraft:nether_wart>, 0, 16);
+mods.agricraft.growing.Brightness.set(<AgriCraft:seedShroomRed>, 0, 16);
+mods.agricraft.growing.Brightness.set(<AgriCraft:seedShroomBrown>, 0, 16);
 
 // Cloud
 recipes.remove(<chisel:cloudinabottle>);

@@ -47,3 +47,8 @@ AgriCraft:seedCamellia=AgriCraft:seedCassis+AgriCraft:seedPoppy
 #AgriCraft:seedKumquat=AgriCraft:seedCassis+DCsAppleMilk:defeatedcrow.seedMint,1,minecraft:redstone_block
 DCsAppleMilk:defeatedcrow.seedMint=AgriCraft:seedTea+AgriCraft:seedTea
 AgriCraft:seedKumquat=AgriCraft:seedCassis+DCsAppleMilk:defeatedcrow.seedMint
+
+AgriCraft:seedCinderpearl=AgriCraft:seedCactus+AgriCraft:seedTulipRed
+AgriCraft:seedShimmerleaf=AgriCraft:seedTulipWhite+AgriCraft:seedCinderpearl
+AgriCraft:seedVishroom=AgriCraft:seedShroomBrown+AgriCraft:seedShimmerleaf
+AgriCraft:seedTaintedRoot=AgriCraft:seedVishroom+minecraft:nether_wart
